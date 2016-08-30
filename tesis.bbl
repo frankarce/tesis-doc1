@@ -1,0 +1,65 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{ims()}]{ims2012}
+Ims simple sequencing best practice and implementation guide version 1.0 _nal
+  speci_cation.
+
+\bibitem[{Brusilovsky et~al.(2003)Brusilovsky, Corbett, y
+  de~Rosis}]{DBLP:conf/um/2003}
+Peter Brusilovsky, Albert~T. Corbett, y Fiorella de~Rosis, eds.
+\newblock \emph{User Modeling 2003, 9th International Conference, {UM} 2003,
+  Johnstown, PA, USA, June 22-26, 2003, Proceedings}, tomo 2702 de
+  \emph{Lecture Notes in Computer Science}. Springer, 2003.
+\newblock ISBN 3-540-40381-7.
+
+\bibitem[{Castillo et~al.(2007)Castillo, Melin, Montiel, Sep{\'{u}}lveda,
+  Pedrycz, y Kacprzyk}]{DBLP:conf/ifsa/2007-2}
+Oscar Castillo, Patricia Melin, Oscar Montiel, Roberto Sep{\'{u}}lveda, Witold
+  Pedrycz, y Janusz Kacprzyk, eds.
+\newblock \emph{Theoretical Advances and Applications of Fuzzy Logic and Soft
+  Computing, Selection of Papers from {IFSA} 2007}, tomo~42 de \emph{Advances
+  in Soft Computing}. Springer, 2007.
+\newblock ISBN 978-3-540-72433-9.
+
+\bibitem[{Dattolo y Loia(2000)}]{884142}
+A.~Dattolo y V.~Loia.
+\newblock A fuzzy approach to adaptive hypermedia.
+\newblock En \emph{Knowledge-Based Intelligent Engineering Systems and Allied
+  Technologies, 2000. Proceedings. Fourth International Conference on}, tomo~2,
+  p\'ags. 700--703 vol.2. 2000.
+\newblock \doi{10.1109/KES.2000.884142}.
+
+\bibitem[{Johnson(1991)}]{john1991}
+W.~Lewis Johnson.
+\newblock Intelligent tutoring systems: Lessons learned.
+\newblock \emph{Artif. Intell.}, 48(1):125--134, 1991.
+
+\bibitem[{Phillips et~al.(2010)Phillips, McNaught, y
+  Kennedy}]{PhilMcNaKenn2010zx}
+Rob Phillips, Carmel McNaught, y Gregor Kennedy.
+\newblock Towards a generalised conceptual framework for learning: the learning
+  environment, learning processes and learning outcomes (lepo) framework.
+\newblock En Jan Herrington y Craig Montgomerie, eds., \emph{Proceedings of
+  EdMedia: World Conference on Educational Media and Technology 2010}, p\'ags.
+  2495--2504. Association for the Advancement of Computing in Education (AACE),
+  Toronto, Canada, 2010.
+\newblock \urlprefix\url{https://www.learntechlib.org/p/34989}.
+
+\bibitem[{Self(1998)}]{self1998}
+John Self.
+\newblock The defining characteristics of intelligent tutoring systems
+  research: Itss care, precisely.
+\newblock \emph{{International Journal of Artificial Intelligence in Education
+  (IJAIED)}}, 10:350--364, 1998.
+\newblock \urlprefix\url{https://telearn.archives-ouvertes.fr/hal-00197346}.
+\newblock The following papers are extended versions of some of the invited
+  papers presented at ITS 98.
+
+\end{thebibliography}

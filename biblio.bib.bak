@@ -1,0 +1,280 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@Article{Beck2008,
+  Title                    = {What Are Learning Objects?},
+  Author                   = {Beck, R. J.},
+  Journal                  = {Learning Objects, Center for International Education},
+  Year                     = {2008},
+
+  Owner                    = {francisco},
+  Timestamp                = {2016.06.07}
+}
+
+@Article{Brusi1994,
+  Title                    = {Student model centered architecture for intelligent learning envi-ronments.},
+  Author                   = {Brusilovsky, P.},
+  Journal                  = {1994},
+  Year                     = {Fourth international conference on User Modeling},
+
+  Owner                    = {francisco},
+  Timestamp                = {2016.06.07}
+}
+
+@InBook{Castillo2003,
+  Title                    = {Adaptive Bayes for a Student Modeling Prediction Task Based on Learning Styles},
+  Author                   = {Castillo, Gladys
+and Gama, Jo{\~a}o
+and Breda, Ana M.},
+  Editor                   = {Brusilovsky, Peter
+and Corbett, Albert
+and de Rosis, Fiorella},
+  Pages                    = {328--332},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2003},
+
+  Address                  = {Berlin, Heidelberg},
+
+  Booktitle                = {User Modeling 2003: 9th International Conference, UM 2003 Johnstown, PA, USA, June 22--26, 2003 Proceedings},
+  Doi                      = {10.1007/3-540-44963-9_44},
+  ISBN                     = {978-3-540-44963-8},
+  Owner                    = {francisco},
+  Timestamp                = {2016.06.07},
+  Url                      = {http://dx.doi.org/10.1007/3-540-44963-9_44}
+}
+
+@InProceedings{4281111,
+  Title                    = {Personalized Context-Aware Ubiquitous Learning System for Supporting Effectively English Vocabulary Learning},
+  Author                   = {C. M. Chen and Y. L. Li and M. C. Chen},
+  Booktitle                = {Seventh IEEE International Conference on Advanced Learning Technologies (ICALT 2007)},
+  Year                     = {2007},
+  Month                    = {July},
+  Pages                    = {628-630},
+
+  Doi                      = {10.1109/ICALT.2007.202},
+  ISSN                     = {2161-3761},
+  Keywords                 = {distance learning;ubiquitous computing;english vocabulary learning;leisure learning;mobile learning;personalized context-aware ubiquitous learning system;wireless techniques;Context-aware services;Databases;Educational institutions;Educational technology;Handheld computers;Learning systems;Libraries;Neural networks;Vocabulary;Wireless LAN;Context-Aware Learning;Neural Networks;Technology;Ubiquitous Learning;Wireless Positioning}
+}
+
+@InProceedings{884142,
+  Title                    = {A fuzzy approach to adaptive hypermedia},
+  Author                   = {A. Dattolo and V. Loia},
+  Booktitle                = {Knowledge-Based Intelligent Engineering Systems and Allied Technologies, 2000. Proceedings. Fourth International Conference on},
+  Year                     = {2000},
+  Pages                    = {700-703 vol.2},
+  Volume                   = {2},
+
+  Doi                      = {10.1109/KES.2000.884142},
+  Keywords                 = {adaptive systems;fuzzy set theory;fuzzy systems;hypermedia;user modelling;adaptive hypermedia;autonomous actors;concurrent model;cooperative actor-based environment;fuzzy stereotype user model;Adaptive systems;Automated highways;Centralized control;Communities;Fuzzy logic;Fuzzy systems;Intelligent systems;Knowledge engineering;Resource management;Visualization}
+}
+
+@Article{Fischer:2001:CES:376697.376700,
+  Title                    = {Course and Exercise Sequencing Using Metadata in Adaptive Hypermedia Learning Systems},
+  Author                   = {Fischer, Stephan},
+  Journal                  = {J. Educ. Resour. Comput.},
+  Year                     = {2001},
+
+  Month                    = mar,
+  Number                   = {1es},
+  Volume                   = {1},
+
+  Acmid                    = {376700},
+  Address                  = {New York, NY, USA},
+  Articleno                = {5},
+  Doi                      = {10.1145/376697.376700},
+  ISSN                     = {1531-4278},
+  Issue_date               = {March 2001},
+  Keywords                 = {adaptive hypermedia systems, hypermedia learning, knowledge engineering, sequencing of course material},
+  Publisher                = {ACM},
+  Url                      = {http://doi.acm.org/10.1145/376697.376700}
+}
+
+@Article{gerard1967,
+  Title                    = {Shaping the mind: Computers in education},
+  Author                   = {Gerard, R.},
+  Journal                  = {Applied Science and Technological Progress: A Report to the Committee on Science and Astronautics},
+  Year                     = {1967},
+
+  Owner                    = {francisco},
+  Timestamp                = {2016.06.07}
+}
+
+@InBook{RefWorks:156,
+  Title                    = {Open Learning Environments: Foundations, Methods, and Models},
+  Author                   = {Hannafin, Michael and Land, Susan and Oliver, Kevin},
+  Editor                   = {Reigeluth, Charles M.},
+  Pages                    = {115--140},
+  Publisher                = {Lawrence Erlbaum Associates},
+  Year                     = {1999},
+  Series                   = {Instructional-Design Theories and Models: A New Paradigm of Instructional Theory},
+
+  Citeulike-article-id     = {1013255},
+  Keywords                 = {learning, learningenvironments},
+  Posted-at                = {2006-12-25 15:22:42},
+  Priority                 = {0}
+}
+
+@Article{john1991,
+  Title                    = {Intelligent Tutoring
+ Systems: Lessons Learned},
+  Author                   = {W. Lewis Johnson},
+  Journal                  = {Artif. Intell.},
+  Year                     = {1991},
+  Number                   = {1},
+  Pages                    = {125--134},
+  Volume                   = {48},
+
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp2.uni-trier.de/rec/bib/journals/ai/Johnson91},
+  Timestamp                = {Wed, 19 Nov 2003 16:01:12 +0100}
+}
+
+@Article{Papanikolaou2003,
+  Title                    = {Personalizing the Interaction in a Web-based Educational Hypermedia System: the case of INSPIRE},
+  Author                   = {Papanikolaou, Kyparisia A.
+and Grigoriadou, Maria
+and Kornilakis, Harry
+and Magoulas, George D.},
+  Journal                  = {User Modeling and User-Adapted Interaction},
+  Year                     = {2003},
+  Number                   = {3},
+  Pages                    = {213--267},
+  Volume                   = {13},
+
+  Abstract                 = {In this paper we present an Adaptive Educational Hypermedia prototype, named INSPIRE. The approach employed in INSPIRE emphasizes the fact that learners perceive and process information in very different ways, and integrates ideas from theories of instructional design and learning styles. Our aim is to make a shift towards a more 'learning-focused' paradigm of instruction by providing a sequence of authentic and meaningful tasks that matches learner' preferred way of studying. INSPIRE, throughout its interaction with the learner, dynamically generates learner-tailored lessons that gradually lead to the accomplishment of learner's learning goals. It supports several levels of adaptation: from full system-control to full learner-control, and offers learners the option to decide on the level of adaptation of the system by intervening in different stages of the lesson generation process and formulating the lesson contents and presentation. Both the adaptive and adaptable behavior of INSPIRE are guided by the learner model which provides information about the learner, such as knowledge level on the domain concepts and learning style. The learner model is exploited in multiple ways: curriculum sequencing, adaptive navigation support, adaptive presentation, and supports system's adaptable behavior. An empirical study has been performed to evaluate the adaptation framework and assess learners' attitudes towards the proposed instructional design.},
+  Doi                      = {10.1023/A:1024746731130},
+  ISSN                     = {1573-1391},
+  Owner                    = {francisco},
+  Timestamp                = {2016.06.07},
+  Url                      = {http://dx.doi.org/10.1023/A:1024746731130}
+}
+
+@InProceedings{PhilMcNaKenn2010zx,
+  Title                    = {Towards a generalised conceptual framework for learning: the Learning Environment, Learning Processes and Learning Outcomes (LEPO) framework},
+  Author                   = {Rob Phillips and Carmel McNaught and Gregor Kennedy},
+  Booktitle                = { Proceedings of EdMedia: World Conference on Educational Media and Technology 2010 },
+  Year                     = { 2010 },
+
+  Address                  = { Toronto, Canada },
+  Editor                   = { Jan Herrington and Craig Montgomerie },
+  Month                    = { June },
+  Pages                    = { 2495--2504 },
+  Publisher                = { Association for the Advancement of Computing in Education (AACE) },
+
+  Abstract                 = { We argue in this paper is that there is a lack of clarity about learning in its broadest form, and we address this by proposing a generalised and integrated conceptual framework for learning. The Learning Environment, Learning Processes and Learning Outcomes (LEPO) framework conceptualises learning as having three components: the environment which facilitates learning (Learning Environment), the activities which are part of learning (Learning Processes) and the knowledge, behaviours, skills or understanding which can be demonstrated (Learning Outcomes). Two general actors interact with these three components, the student and the teacher. The paper discusses the origins of the framework, justifies its form and validates it against other conceptual frameworks. It concludes with a brief discussion about how it can be used to improve both the educational design of educational innovations and evaluate/ research into the effectiveness of educational innovations. },
+  Owner                    = {francisco},
+  Timestamp                = {2016.06.15},
+  Url                      = { https://www.learntechlib.org/p/34989 }
+}
+
+@Article{JoDI89,
+  Title                    = {Use and Abuse of Reusable Learning Objects},
+  Author                   = {Pithamber Polsani},
+  Journal                  = {Journal of Digital Information},
+  Year                     = {2006},
+  Number                   = {4},
+  Volume                   = {3},
+
+  Abstract                 = {The term Learning Object, first popularized by Wayne Hodgins in 1994 when he named the CedMA working group \"Learning Architectures, APIs and Learning Objects\", has become the Holy Grail of content creation and aggregation in the computer-mediated learning field. The terms Learning Objects (LOs) and Reusable Learning Objects are frequently employed in uncritical ways, thereby reducing them to mere slogans. The serious lack of conceptual clarity and reflection is evident in the multitude of definitions and uses of LOs. The objectives of this paper are to assess current definitions of the term Learning Object, to articulate the foundational principles for developing a concept of LOs, and to provide a methodology and broad set of guidelines for creating LOs.},
+  ISSN                     = {1368-7506},
+  Url                      = {https://journals.tdl.org/jodi/index.php/jodi/article/view/89}
+}
+
+@Article{self1998,
+  Title                    = {The defining characteristics of intelligent tutoring systems research: ITSs care, precisely},
+  Author                   = {Self, John},
+  Journal                  = {{International Journal of Artificial Intelligence in Education (IJAIED)}},
+  Year                     = {1998},
+  Note                     = {The following papers are extended versions of some of the invited papers presented at ITS 98.},
+  Pages                    = {350-364},
+  Volume                   = {10},
+
+  File                     = {self99.pdf:https\://telearn.archives-ouvertes.fr/hal-00197346/file/self99.pdf:PDF},
+  Hal_id                   = {hal-00197346},
+  Hal_version              = {v1},
+  Keywords                 = {research methods},
+  Url                      = {https://telearn.archives-ouvertes.fr/hal-00197346}
+}
+
+@InBook{Valdez2007,
+  Title                    = {Theoretical Advances and Applications of Fuzzy Logic and Soft Computing},
+  Author                   = {Valdez, Mario Garc{\'i}a
+and Sandoval, Guillermo Licea
+and Castillo, Oscar
+and Garza, Arnulfo Alanis},
+  Chapter                  = {A Fuzzy Approach for the Sequencing of Didactic Resources in Educational Adaptive Hypermedia Systems},
+  Editor                   = {Castillo, Oscar
+and Melin, Patricia
+and Ross, Oscar Montiel
+and Sep{\'u}lveda Cruz, Roberto
+and Pedrycz, Witold
+and Kacprzyk, Janusz},
+  Pages                    = {885--892},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2007},
+
+  Address                  = {Berlin, Heidelberg},
+
+  Doi                      = {10.1007/978-3-540-72434-6_90},
+  ISBN                     = {978-3-540-72434-6},
+  Owner                    = {francisco},
+  Timestamp                = {2016.06.07},
+  Url                      = {http://dx.doi.org/10.1007/978-3-540-72434-6_90}
+}
+
+@Proceedings{DBLP:conf/um/2003,
+  Title                    = {User Modeling 2003, 9th International Conference, {UM} 2003, Johnstown,
+ PA, USA, June 22-26, 2003, Proceedings},
+  Year                     = {2003},
+  Editor                   = {Peter Brusilovsky and
+ Albert T. Corbett and
+ Fiorella de Rosis},
+  Publisher                = {Springer},
+  Series                   = {Lecture Notes in Computer Science},
+  Volume                   = {2702},
+
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp2.uni-trier.de/rec/bib/conf/um/2003},
+  ISBN                     = {3-540-40381-7},
+  Timestamp                = {Tue, 01 Jul 2003 13:59:02 +0200}
+}
+
+@Proceedings{DBLP:conf/ifsa/2007-2,
+  Title                    = {Theoretical Advances and Applications of Fuzzy Logic and Soft Computing,
+ Selection of Papers from {IFSA} 2007},
+  Year                     = {2007},
+  Editor                   = {Oscar Castillo and
+ Patricia Melin and
+ Oscar Montiel and
+ Roberto Sep{\'{u}}lveda and
+ Witold Pedrycz and
+ Janusz Kacprzyk},
+  Publisher                = {Springer},
+  Series                   = {Advances in Soft Computing},
+  Volume                   = {42},
+
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp2.uni-trier.de/rec/bib/conf/ifsa/2007-2},
+  ISBN                     = {978-3-540-72433-9},
+  Timestamp                = {Wed, 03 Dec 2008 11:42:35 +0100}
+}
+
+@Standard{ciscoobj2012,
+  Title                    = {Reusable information object strategy.},
+  Institution              = {http ://www.cisco.com /warp/public /779/ibs/solutions/learning/whitepapers/el cisco_rio.pdf},
+  Organization             = {Cisco},
+
+  Owner                    = {francisco},
+  Timestamp                = {2016.06.07}
+}
+
+@Standard{ims2012,
+  Title                    = {Ims simple sequencing best practice and implementation guide version 1.0 _nal speci_cation.},
+  Institution              = {IMS Global Learning Consortium},
+  Organization             = {IMS Global Learning, C.},
+
+  Owner                    = {francisco},
+  Timestamp                = {2016.06.07}
+}
+
