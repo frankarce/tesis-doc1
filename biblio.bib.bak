@@ -1,5 +1,4 @@
-% This file was created with JabRef 2.10.
-% Encoding: Cp1252
+% Encoding: windows-1252
 
 
 @Article{Beck2008,
@@ -13,13 +12,12 @@
 }
 
 @Article{Brusi1994,
-  Title                    = {Student model centered architecture for intelligent learning envi-ronments.},
-  Author                   = {Brusilovsky, P.},
-  Journal                  = {1994},
-  Year                     = {Fourth international conference on User Modeling},
-
-  Owner                    = {francisco},
-  Timestamp                = {2016.06.07}
+  author    = {Brusilovsky, P.},
+  title     = {Student model centered architecture for intelligent learning envi-ronments.},
+  journal   = {Fourth international conference on User Modeling},
+  year      = {1994},
+  owner     = {francisco},
+  timestamp = {2016.06.07},
 }
 
 @InBook{Castillo2003,
@@ -44,50 +42,46 @@ and de Rosis, Fiorella},
   Url                      = {http://dx.doi.org/10.1007/3-540-44963-9_44}
 }
 
-@InProceedings{4281111,
-  Title                    = {Personalized Context-Aware Ubiquitous Learning System for Supporting Effectively English Vocabulary Learning},
-  Author                   = {C. M. Chen and Y. L. Li and M. C. Chen},
-  Booktitle                = {Seventh IEEE International Conference on Advanced Learning Technologies (ICALT 2007)},
-  Year                     = {2007},
-  Month                    = {July},
-  Pages                    = {628-630},
-
-  Doi                      = {10.1109/ICALT.2007.202},
-  ISSN                     = {2161-3761},
-  Keywords                 = {distance learning;ubiquitous computing;english vocabulary learning;leisure learning;mobile learning;personalized context-aware ubiquitous learning system;wireless techniques;Context-aware services;Databases;Educational institutions;Educational technology;Handheld computers;Learning systems;Libraries;Neural networks;Vocabulary;Wireless LAN;Context-Aware Learning;Neural Networks;Technology;Ubiquitous Learning;Wireless Positioning}
+@InProceedings{Chen2007,
+  author    = {C. M. Chen and Y. L. Li and M. C. Chen},
+  title     = {Personalized Context-Aware Ubiquitous Learning System for Supporting Effectively English Vocabulary Learning},
+  booktitle = {Seventh IEEE International Conference on Advanced Learning Technologies (ICALT 2007)},
+  year      = {2007},
+  pages     = {628-630},
+  month     = {July},
+  doi       = {10.1109/ICALT.2007.202},
+  issn      = {2161-3761},
+  keywords  = {distance learning;ubiquitous computing;english vocabulary learning;leisure learning;mobile learning;personalized context-aware ubiquitous learning system;wireless techniques;Context-aware services;Databases;Educational institutions;Educational technology;Handheld computers;Learning systems;Libraries;Neural networks;Vocabulary;Wireless LAN;Context-Aware Learning;Neural Networks;Technology;Ubiquitous Learning;Wireless Positioning},
 }
 
-@InProceedings{884142,
-  Title                    = {A fuzzy approach to adaptive hypermedia},
-  Author                   = {A. Dattolo and V. Loia},
-  Booktitle                = {Knowledge-Based Intelligent Engineering Systems and Allied Technologies, 2000. Proceedings. Fourth International Conference on},
-  Year                     = {2000},
-  Pages                    = {700-703 vol.2},
-  Volume                   = {2},
-
-  Doi                      = {10.1109/KES.2000.884142},
-  Keywords                 = {adaptive systems;fuzzy set theory;fuzzy systems;hypermedia;user modelling;adaptive hypermedia;autonomous actors;concurrent model;cooperative actor-based environment;fuzzy stereotype user model;Adaptive systems;Automated highways;Centralized control;Communities;Fuzzy logic;Fuzzy systems;Intelligent systems;Knowledge engineering;Resource management;Visualization}
+@InProceedings{Dattolo2000,
+  author    = {A. Dattolo and V. Loia},
+  title     = {A fuzzy approach to adaptive hypermedia},
+  booktitle = {Knowledge-Based Intelligent Engineering Systems and Allied Technologies, 2000. Proceedings. Fourth International Conference on},
+  year      = {2000},
+  volume    = {2},
+  pages     = {700-703 vol.2},
+  doi       = {10.1109/KES.2000.884142},
+  keywords  = {adaptive systems;fuzzy set theory;fuzzy systems;hypermedia;user modelling;adaptive hypermedia;autonomous actors;concurrent model;cooperative actor-based environment;fuzzy stereotype user model;Adaptive systems;Automated highways;Centralized control;Communities;Fuzzy logic;Fuzzy systems;Intelligent systems;Knowledge engineering;Resource management;Visualization},
 }
 
-@Article{Fischer:2001:CES:376697.376700,
-  Title                    = {Course and Exercise Sequencing Using Metadata in Adaptive Hypermedia Learning Systems},
-  Author                   = {Fischer, Stephan},
-  Journal                  = {J. Educ. Resour. Comput.},
-  Year                     = {2001},
-
-  Month                    = mar,
-  Number                   = {1es},
-  Volume                   = {1},
-
-  Acmid                    = {376700},
-  Address                  = {New York, NY, USA},
-  Articleno                = {5},
-  Doi                      = {10.1145/376697.376700},
-  ISSN                     = {1531-4278},
-  Issue_date               = {March 2001},
-  Keywords                 = {adaptive hypermedia systems, hypermedia learning, knowledge engineering, sequencing of course material},
-  Publisher                = {ACM},
-  Url                      = {http://doi.acm.org/10.1145/376697.376700}
+@Article{Fischer2001,
+  author     = {Fischer, Stephan},
+  title      = {Course and Exercise Sequencing Using Metadata in Adaptive Hypermedia Learning Systems},
+  journal    = {J. Educ. Resour. Comput.},
+  year       = {2001},
+  volume     = {1},
+  number     = {1es},
+  month      = mar,
+  issn       = {1531-4278},
+  acmid      = {376700},
+  address    = {New York, NY, USA},
+  articleno  = {5},
+  doi        = {10.1145/376697.376700},
+  issue_date = {March 2001},
+  keywords   = {adaptive hypermedia systems, hypermedia learning, knowledge engineering, sequencing of course material},
+  publisher  = {ACM},
+  url        = {http://doi.acm.org/10.1145/376697.376700},
 }
 
 @Article{gerard1967,
@@ -100,7 +94,7 @@ and de Rosis, Fiorella},
   Timestamp                = {2016.06.07}
 }
 
-@InBook{RefWorks:156,
+@InBook{Hannafin1999,
   Title                    = {Open Learning Environments: Foundations, Methods, and Models},
   Author                   = {Hannafin, Michael and Land, Susan and Oliver, Kevin},
   Editor                   = {Reigeluth, Charles M.},
@@ -168,17 +162,16 @@ and Magoulas, George D.},
   Url                      = { https://www.learntechlib.org/p/34989 }
 }
 
-@Article{JoDI89,
-  Title                    = {Use and Abuse of Reusable Learning Objects},
-  Author                   = {Pithamber Polsani},
-  Journal                  = {Journal of Digital Information},
-  Year                     = {2006},
-  Number                   = {4},
-  Volume                   = {3},
-
-  Abstract                 = {The term Learning Object, first popularized by Wayne Hodgins in 1994 when he named the CedMA working group \"Learning Architectures, APIs and Learning Objects\", has become the Holy Grail of content creation and aggregation in the computer-mediated learning field. The terms Learning Objects (LOs) and Reusable Learning Objects are frequently employed in uncritical ways, thereby reducing them to mere slogans. The serious lack of conceptual clarity and reflection is evident in the multitude of definitions and uses of LOs. The objectives of this paper are to assess current definitions of the term Learning Object, to articulate the foundational principles for developing a concept of LOs, and to provide a methodology and broad set of guidelines for creating LOs.},
-  ISSN                     = {1368-7506},
-  Url                      = {https://journals.tdl.org/jodi/index.php/jodi/article/view/89}
+@Article{Polsani2006,
+  author   = {Pithamber Polsani},
+  title    = {Use and Abuse of Reusable Learning Objects},
+  journal  = {Journal of Digital Information},
+  year     = {2006},
+  volume   = {3},
+  number   = {4},
+  issn     = {1368-7506},
+  abstract = {The term Learning Object, first popularized by Wayne Hodgins in 1994 when he named the CedMA working group \"Learning Architectures, APIs and Learning Objects\", has become the Holy Grail of content creation and aggregation in the computer-mediated learning field. The terms Learning Objects (LOs) and Reusable Learning Objects are frequently employed in uncritical ways, thereby reducing them to mere slogans. The serious lack of conceptual clarity and reflection is evident in the multitude of definitions and uses of LOs. The objectives of this paper are to assess current definitions of the term Learning Object, to articulate the foundational principles for developing a concept of LOs, and to provide a methodology and broad set of guidelines for creating LOs.},
+  url      = {https://journals.tdl.org/jodi/index.php/jodi/article/view/89},
 }
 
 @Article{self1998,
@@ -223,58 +216,52 @@ and Kacprzyk, Janusz},
   Url                      = {http://dx.doi.org/10.1007/978-3-540-72434-6_90}
 }
 
-@Proceedings{DBLP:conf/um/2003,
-  Title                    = {User Modeling 2003, 9th International Conference, {UM} 2003, Johnstown,
- PA, USA, June 22-26, 2003, Proceedings},
-  Year                     = {2003},
-  Editor                   = {Peter Brusilovsky and
- Albert T. Corbett and
- Fiorella de Rosis},
-  Publisher                = {Springer},
-  Series                   = {Lecture Notes in Computer Science},
-  Volume                   = {2702},
-
-  Bibsource                = {dblp computer science bibliography, http://dblp.org},
-  Biburl                   = {http://dblp2.uni-trier.de/rec/bib/conf/um/2003},
-  ISBN                     = {3-540-40381-7},
-  Timestamp                = {Tue, 01 Jul 2003 13:59:02 +0200}
+@Proceedings{Brusilovsky2003,
+  title     = {User Modeling 2003, 9th International Conference, {UM} 2003, Johnstown, PA, USA, June 22-26, 2003, Proceedings},
+  year      = {2003},
+  editor    = {Peter Brusilovsky and Albert T. Corbett and Fiorella de Rosis},
+  volume    = {2702},
+  series    = {Lecture Notes in Computer Science},
+  publisher = {Springer},
+  isbn      = {3-540-40381-7},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+  biburl    = {http://dblp2.uni-trier.de/rec/bib/conf/um/2003},
+  timestamp = {Tue, 01 Jul 2003 13:59:02 +0200},
 }
 
-@Proceedings{DBLP:conf/ifsa/2007-2,
-  Title                    = {Theoretical Advances and Applications of Fuzzy Logic and Soft Computing,
- Selection of Papers from {IFSA} 2007},
-  Year                     = {2007},
-  Editor                   = {Oscar Castillo and
- Patricia Melin and
- Oscar Montiel and
- Roberto Sep{\'{u}}lveda and
- Witold Pedrycz and
- Janusz Kacprzyk},
-  Publisher                = {Springer},
-  Series                   = {Advances in Soft Computing},
-  Volume                   = {42},
-
-  Bibsource                = {dblp computer science bibliography, http://dblp.org},
-  Biburl                   = {http://dblp2.uni-trier.de/rec/bib/conf/ifsa/2007-2},
-  ISBN                     = {978-3-540-72433-9},
-  Timestamp                = {Wed, 03 Dec 2008 11:42:35 +0100}
+@Proceedings{Castillo2007,
+  title     = {Theoretical Advances and Applications of Fuzzy Logic and Soft Computing, Selection of Papers from {IFSA} 2007},
+  year      = {2007},
+  editor    = {Oscar Castillo and Patricia Melin and Oscar Montiel and Roberto Sep{\'{u}}lveda and Witold Pedrycz and Janusz Kacprzyk},
+  volume    = {42},
+  series    = {Advances in Soft Computing},
+  publisher = {Springer},
+  isbn      = {978-3-540-72433-9},
+  bibsource = {dblp computer science bibliography, http://dblp.org},
+  biburl    = {http://dblp2.uni-trier.de/rec/bib/conf/ifsa/2007-2},
+  timestamp = {Wed, 03 Dec 2008 11:42:35 +0100},
 }
 
 @Standard{ciscoobj2012,
-  Title                    = {Reusable information object strategy.},
-  Institution              = {http ://www.cisco.com /warp/public /779/ibs/solutions/learning/whitepapers/el cisco_rio.pdf},
-  Organization             = {Cisco},
-
-  Owner                    = {francisco},
-  Timestamp                = {2016.06.07}
+  title        = {Reusable information object strategy.},
+  organization = {Cisco},
+  institution  = {http ://www.cisco.com /warp/public /779/ibs/solutions/learning/whitepapers/el cisco_rio.pdf},
+  author       = {Cisco},
+  owner        = {francisco},
+  timestamp    = {2016.06.07},
 }
 
 @Standard{ims2012,
-  Title                    = {Ims simple sequencing best practice and implementation guide version 1.0 _nal speci_cation.},
-  Institution              = {IMS Global Learning Consortium},
-  Organization             = {IMS Global Learning, C.},
-
-  Owner                    = {francisco},
-  Timestamp                = {2016.06.07}
+  title        = {Ims simple sequencing best practice and implementation guide version 1.0 nal specication.},
+  organization = {IMS Global Learning, C.},
+  institution  = {IMS Global Learning Consortium},
+  author       = {IMS},
+  month        = mar,
+  year         = {2003},
+  url          = {http://www.imsglobal.org/simplesequencing/index.html},
+  keywords     = {IMS},
+  owner        = {francisco},
+  timestamp    = {2016.06.07},
 }
 
+@Comment{jabref-meta: databaseType:bibtex;}

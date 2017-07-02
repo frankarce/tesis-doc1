@@ -1,4 +1,4 @@
-\documentclass[oneside,numbers,spanish]{ezthesis}
+\documentclass[oneside,numbers]{ezthesis}
 %% # Opciones disponibles para el documento #
 %%
 %% Las opciones con un (*) son las opciones predeterminadas.
@@ -42,12 +42,21 @@
 %% Por ejemplo:
 %\usepackage{subfig}
 %\usepackage{multirow}
-\usepackage{graphicx,rotating,booktabs}
+\usepackage{rotating,booktabs}
+\usepackage{graphicx}
+
+
+\graphicspath{{./img/}}
+\DeclareGraphicsExtensions{.jpg,.png}
 \usepackage{lscape}
-\usepackage[english]{babel} % espanol, ingles
+\PassOptionsToPackage{USenglish}{babel}
+\usepackage[USenglish]{babel} % espanol, ingles
 \usepackage{multirow, array} %para mover el ancho de las tablas.
 \renewcommand{\baselinestretch}{2}
 \usepackage{vmargin}
+\nocite{*}
+
+
 \setpapersize{USletter}
 \setmargins{3.2cm}       % margen izquierdo
 {2.5cm}                        % margen superior
@@ -88,12 +97,12 @@
 %% Nota que los acentos se deben escribir: \'a, \'e, \'i, etc.
 %% La letra n con tilde es: \~n.
 
-\author{Juan Antonio Navarro P\'erez}
-\title{Ejemplo de una Tesis}
+\author{Francisco Javier Arce C\'ardenas}
+\title{Tesis Doctoral}
 \degree{Doctor en Ciencias}
-\supervisor{Nombre de mi Asesor}
-\institution{Universidad de Alg\'un Sitio}
-\faculty{Escuela de Ingenier\'ia y Ciencias}
+\supervisor{Jos\'e Mario Garc\'ia Valdez}
+\institution{Instituto Tecnol\'ogico de Tijuana}
+\faculty{Ciencias de la computac\'ion}
 \department{Departamento de Sistemas Computacionales}
 
 %% # M'argenes del documento #
@@ -131,14 +140,16 @@
 %% Por cada cap'itulo hay que crear un nuevo archivo e incluirlo aqu'i.
 %% Mirar el archivo "intro.tex" para un ejemplo y recomendaciones para
 %% escribir.
+\pagenumbering{arabic}
+\setcounter{page}{1}
 \include{introduction}
-
-%\include{artstate}
+\include{artstate}
 \include{theoryandbg}
 \include{proposmeth}
 \include{expres}
+\include{enveva}
 \include{conclu}
-\bibliography{biblio}
+
 \appendix
 %% Cap'itulos incluidos despues del comando \appendix aparecen como ap'endices
 %% de la tesis.
@@ -146,6 +157,7 @@
 %\include{apendiceB}
 %\include{apendiceC}
 
+\bibliography{biblio}
 %% Incluir la bibliograf'ia. Mirar el archivo "biblio.bib" para m'as detales
 %% y un ejemplo.
 

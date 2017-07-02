@@ -1,13 +1,10 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: tesis.aux
-The style file: ezspanish.bst
+The style file: plainnat.bst
 A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: artstate.aux
 A level-1 auxiliary file: theoryandbg.aux
 A level-1 auxiliary file: proposmeth.aux
 A level-1 auxiliary file: expres.aux
+A level-1 auxiliary file: enveva.aux
 A level-1 auxiliary file: conclu.aux
 Database file #1: biblio.bib
-Warning--entry type for "ims2012" isn't style-file defined
---line 272 of file biblio.bib
-Warning--to sort, need author or key in ims2012
-Warning--empty year in ims2012
-(There were 3 warnings)

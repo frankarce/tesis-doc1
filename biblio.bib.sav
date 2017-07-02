@@ -1,4 +1,6 @@
 % Encoding: windows-1252
+
+
 @Article{Beck2008,
   Title                    = {What Are Learning Objects?},
   Author                   = {Beck, R. J.},
@@ -143,21 +145,19 @@ and Magoulas, George D.},
 }
 
 @InProceedings{PhilMcNaKenn2010zx,
-  Title                    = {Towards a generalised conceptual framework for learning: the Learning Environment, Learning Processes and Learning Outcomes (LEPO) framework},
-  Author                   = {Rob Phillips and Carmel McNaught and Gregor Kennedy},
-  Booktitle                = { Proceedings of EdMedia: World Conference on Educational Media and Technology 2010 },
-  Year                     = { 2010 },
-
-  Address                  = { Toronto, Canada },
-  Editor                   = { Jan Herrington and Craig Montgomerie },
-  Month                    = { June },
-  Pages                    = { 2495--2504 },
-  Publisher                = { Association for the Advancement of Computing in Education (AACE) },
-
-  Abstract                 = { We argue in this paper is that there is a lack of clarity about learning in its broadest form, and we address this by proposing a generalised and integrated conceptual framework for learning. The Learning Environment, Learning Processes and Learning Outcomes (LEPO) framework conceptualises learning as having three components: the environment which facilitates learning (Learning Environment), the activities which are part of learning (Learning Processes) and the knowledge, behaviours, skills or understanding which can be demonstrated (Learning Outcomes). Two general actors interact with these three components, the student and the teacher. The paper discusses the origins of the framework, justifies its form and validates it against other conceptual frameworks. It concludes with a brief discussion about how it can be used to improve both the educational design of educational innovations and evaluate/ research into the effectiveness of educational innovations. },
-  Owner                    = {francisco},
-  Timestamp                = {2016.06.15},
-  Url                      = { https://www.learntechlib.org/p/34989 }
+  author    = {Rob Phillips and Carmel McNaught and Gregor Kennedy},
+  title     = {Towards a generalised conceptual framework for learning: the Learning Environment, Learning Processes and Learning Outcomes (LEPO) framework},
+  booktitle = {Proceedings of EdMedia: World Conference on Educational Media and Technology 2010},
+  year      = {2010},
+  editor    = {Jan Herrington and Craig Montgomerie},
+  pages     = {2495--2504},
+  address   = {Toronto, Canada},
+  month     = {June},
+  publisher = {Association for the Advancement of Computing in Education (AACE)},
+  abstract  = {We argue in this paper is that there is a lack of clarity about learning in its broadest form, and we address this by proposing a generalised and integrated conceptual framework for learning. The Learning Environment, Learning Processes and Learning Outcomes (LEPO) framework conceptualises learning as having three components: the environment which facilitates learning (Learning Environment), the activities which are part of learning (Learning Processes) and the knowledge, behaviours, skills or understanding which can be demonstrated (Learning Outcomes). Two general actors interact with these three components, the student and the teacher. The paper discusses the origins of the framework, justifies its form and validates it against other conceptual frameworks. It concludes with a brief discussion about how it can be used to improve both the educational design of educational innovations and evaluate/ research into the effectiveness of educational innovations.},
+  owner     = {francisco},
+  timestamp = {2016.06.15},
+  url       = { https://www.learntechlib.org/p/34989 },
 }
 
 @Article{Polsani2006,
