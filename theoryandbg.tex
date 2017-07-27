@@ -5,6 +5,7 @@ This chapter overviews the background and main definitions and basic concepts, u
 	Learning environment refers to the diverse physical locations, contexts, and cultures in which students learn. Since students may learn in a wide variety of settings, such as outside-of-school locations and outdoor environments, the term is often used as a more accurate or preferred alternative to classroom, which has more limited and traditional connotations—a room with rows of desks and a chalkboard, for example.
 The term also encompasses the culture of a school or class—its presiding ethos and characteristics, including how individuals interact with and treat one another—as well as the ways in which teachers may organize an educational setting to facilitate learning—e.g., by conducting classes in relevant natural ecosystems, grouping desks in specific ways, decorating the walls with learning materials, or utilizing audio, visual, and digital technologies. And because the qualities and characteristics of a learning environment are determined by a wide variety of factors, school policies, governance structures, and other features may also be considered elements of a “learning environment.”
 Educators may also argue that learning environments have both a direct and indirect influence on student learning, including their engagement in what is being taught, their motivation to learn, and their sense of well-being, belonging, and personal safety. For example, learning environments filled with sunlight and stimulating educational materials would likely be considered more conducive to learning than drab spaces without windows or decoration, as would schools with fewer incidences of misbehavior, disorder, bullying, and illegal activity. How adults interact with students and how students interact with one another may also be considered aspects of a learning environment, and phrases such as “positive learning environment” or “negative learning environment” are commonly used in reference to the social and emotional dimensions of a school or class.
+
 \section{Interactive learning environment}
 
 	Interactive learning is a pedagogical approach that incorporates social networking and urban computing into course design and delivery. Interactive Learning has evolved out of the hyper-growth in the use of digital technology and virtual communication, particularly by students. The use of interactive technology in learning for these students is as natural as using a pencil and paper were to past generations. The Net Generation or Generation Y is the first generation to grow up in constant contact with digital media. Also known as digital natives, their techno-social, community bonds to their naturalized use of technology in every aspect of learning, to their ability to learn in new ways outside the classroom, this generation of students is pushing the boundaries of education. The use of digital media in education has led to an increase in the use of and reliance on interactive learning, which in turn has led to a revolution in the fundamental process of education.
@@ -37,14 +38,22 @@ Figure 2.1.Key-Value example.
 	A gain scheduling controller contains a linear controller whose parameters are changed as a function of the operating point in a preprogrammed way. It requires thorough knowledge of the plant, but it is often a good way to compensate for nonlinearities and parameter variations. Sensor measurements are used as scheduling variables that govern the change of the controller parameters, often by means of a table look-up.
 \section{Learning object}
 
-A learning object is "a collection of content items, practice items, and assessment items that are combined based on a single learning objective".[1] The term is credited to Wayne Hodgins when he created a working group in 1994 bearing the name[2] though the concept was first described by Gerard in 1967.[3] Learning objects go by many names, including content objects, chunks, educational objects, information objects, intelligent objects, knowledge bits, knowledge objects, learning components, media objects, reusable curriculum components, nuggets, reusable information objects, reusable learning objects, testable reusable units of cognition, training components, and units of learning. Learning objects offer a new conceptualization of the learning process: rather than the traditional "several hour chunk", they provide smaller, self-contained, re-usable units of learning.
-They will typically have a number of different components, which range from descriptive data to information about rights and educational level. At their core, however, will be instructional content, practice, and assessment. A key issue is the use of metadata.
+
 Learning object design raises issues of portability, and of the object's relation to a broader learning management system.
+Learning objects are the basic elements of current Learning Management Systems (LMS) and are the focus of standardization initiatives whose goal is defining open technical standards and their characteristic metadata [6]. The most important initiatives are the Advanced Distributed Learning Initiative (ADL-SCORM) [7], the Instructional Management System Project (IMS) [8], the Alliance of Remote Instructional Authoring Distribution Networks of Europe (ARIADNE) [9], and the IEEE Learning Technology Standards Committee [10]. The main objective of these open standards is to enable the interoperability of learning objects between different LMSs and Learning Objects Repositories (LORS). Basic metadata schema specifications for learning objects include: Learning Object Metadata (LOM). Based on the Dublin Core metadata [11] this specification defines a set of meta- data elements that can be used to describe learning resources. LOM Includes educational, relation, technical, and classification elements [7]. Content Aggregation Model (CAM). CAM defines a package for the aggregation, distribution, management, and deployment of learning objects. Defines an organization element which contains information about one particular, passive organization of the material, the organization for now is limited to a tree structure [8]. Learner Information (LI). A collection of information about a learner or a producer of learning content, the elements are based upon accessibilities; activities; affiliations; competencies; goals; identifications; interests; qualifications, certifications and licenses; relationship; security keys; and transcripts [8]. Sequence and Navigation (SN). SN defines a method for representing the intended behavior of an authored learning experience such that any Learning Technology system (LTS) can sequence discrete learning activities in a consistent way. Provides a rule based sequencing of behaviors [7]. These standards have been the basis for various research projects in eLearning [11] and also extensions to support adaptability have been proposed [13], [14], [15]. Certain limitations of these specification initiatives have been noticed mainly regarding their weak support for the instructional design of the educational resources and pedagogy [16]. 
+
 \section{NoSQL}
 
 In computing, NoSQL (sometimes called "not only SQL") is a broad class of systems management databases that differ from the classical model of relational database management system (RDBMS) in important aspects, the most prominent is that they are not using SQL as the primary query language. The stored data do not require fixed structures such as tables, typically do not support JOIN operations, not fully guarantee ACID (atomicity, consistency, isolation and durability), and usually scale well horizontally. The NoSQL systems are sometimes called "not only SQL" to underline the fact that they can also support query languages like SQL. The NoSQL databases Systems grew with major Internet companies like Google, Amazon, Twitter and Facebook. These had to face challenges with data processing than traditional RDBMS not solved. With the growth of the web in real time there was a need to provide processed information from large volumes of data that had more or less similar horizontal structures. These companies realized that the performance and real-time properties were more important than consistency, in which the traditional relational data bases devoted a lot of processing time. 
-In that sense, often, NoSQL databases are highly optimized for operations retrieve and add, and usually do not offer much more than the functionality of store records (eg key-value storage) that we can see on figure 2.1 . The loss of flexibility at run time compared to conventional systems SQL, is offset by significant gains in scalability and performance when it comes to certain data models.
- 
+In that sense, often, NoSQL databases are highly optimized for operations retrieve and add, and usually do not offer much more than the functionality of store records (eg key-value storage) that we can see on figure \ref{keyvalue}. The loss of flexibility at run time compared to conventional systems SQL, is offset by significant gains in scalability and performance when it comes to certain data models.
+
+ \begin{figure}[ht!]  
+\centering  
+\includegraphics[scale=1]{nosqlejemplo}
+\quad  
+\caption{Key-Value Storage}  
+\label{keyvalue}  
+\end{figure}
 \subsection{Key-Value example}
 
 Typically the modern relational data bases have shown little efficiency in certain applications that use data intensively, including indexing of a large number of documents, presentation pages sites with high traffic, and sites audiovisual streaming. Typical implementations of RDBMS have tuned either for a small but frequent reads and writes or a large set of transactions that have few write accesses amount. On the other hand it can serve NoSQL lot of load of reads and writes.
@@ -69,27 +78,60 @@ Distributed architecture. The relational databases are typically centralized in 
 Depending on how you store the information, we can find various types other than NoSQL databases. Consider the most commonly used types.
 Key-Value Database: They are the base model popular NoSQL data, besides being the simplest in terms of functionality. In this type of system, each element is identified by a unique key, allowing the retrieval of information very quickly, which is usually stored information as a binary large object (BLOB). They are characterized by being very efficient for both readings and for scriptures. Examples of this type are Cassandra, HBase or BigTable.
  
-Figure 2.2.Key-Value.
+
 
 Document databases: They are the base model popular NoSQL data, besides being the simplest in terms of functionality. In this type of system, each element is identified by a unique key, allowing the retrieval of information very quickly, which is usually stored information as a binary large object (BLOB). They are characterized by being very efficient for both readings and for scriptures we can see an example of this kind of data base on the figure 2.3. Examples of this type are Cassandra, HBase or BigTable. 
- 
-Figure 2.3.Document Database .
+\begin{figure}[ht!]  
+\centering  
+\includegraphics[scale=1]{basededatosdoc}
+\quad  
+\caption{Document Database Example}  
+\label{bddd}  
+\end{figure}
+
 Graph databases: In this type of databases, information is represented as nodes of a graph and its relations with the edges thereof (Figure 2.4), so that you can make use of graph theory to cover it. To remove the most of this type of database, its structure must be fully normalized, of so that each table has a single column and each relationship both. This type of database provides a more efficient navigation between relationships vs a relational model. Examples of this type are Neo4j, InfoGrid or Virtuoso.
 
- 
-Figure 2.4.Graph Database.
+\begin{figure}[ht!]  
+\centering  
+\includegraphics[scale=1]{Graph-database}
+\quad  
+\caption{Graph Database Example}  
+\label{bdg}  
+\end{figure}
 
 \subsection{Examples of NoSQL databases}
 
 	A continuación se muestran algunos ejemplos de las bases de datos nosql mas utilizadas actualmente. 
 •	Cassandra: This is a database created by Apache key-value type. It has its own language for CQL (Cassandra Query Language) queries. Cassandra is a Java application so it can run on any platform that has the Java Virtual Machine.
  
-Figure 2.5.Cassandra logo.
+\begin{figure}[ht!]  
+\centering  
+\includegraphics[scale=0.1]{cassandra}
+\quad  
+\caption{Nosql Database Cassandra}  
+\label{bdg}  
+\end{figure}
+
 
 •	MongoDB: This is a database created by 10gen document-oriented type, Free scheme is meaning that each input can have a different data schema that has nothing to do with the rest stored records. It's pretty quick to run its operations as it is written in C ++ language. For information storage, uses a proprietary system known document with the BSON name, which is an evolution of the popular JSON but with the peculiarity that can store binary data. Soon, MongoDB has become one of the bases of popular NoSQL data by developers.
  
-Figure 2.6.MongoDB logo.
+\begin{figure}[ht!]  
+\centering  
+\includegraphics[scale=1]{mongo}
+\quad  
+\caption{Nosql Database MongoDB}  
+\label{bdg}  
+\end{figure}
 
 
 •	CouchDB: It is a system created by Apache and written in Erlang language that works in most POSIX systems, including GNU / Linux and OSX, but not in Windows systems. The most important features include the use of Restfull HTTP API as an interface and JavaScript as the main language of interaction. For storage of data files used JSON.Allows creation of views, which are the mechanism that allows the combination of documents return values of several documents, ie, CouchDB allows performing operations JOIN Typical SQL.
 
+\begin{figure}[ht!]  
+\centering  
+\includegraphics[scale=1]{couchdb}
+\quad  
+\caption{Nosql Database CouchDB}  
+\label{bdg}  
+\end{figure}
+
+\section{Engagement}

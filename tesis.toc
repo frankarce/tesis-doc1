@@ -2,33 +2,33 @@
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Learning Environment}{5}{section.1.2}
-\contentsline {section}{\numberline {1.3}Learnign Objects.}{7}{section.1.3}
-\contentsline {section}{\numberline {1.4}Aim's.}{7}{section.1.4}
-\contentsline {section}{\numberline {1.5}Outline.}{7}{section.1.5}
-\contentsline {chapter}{\numberline {2}Art State}{8}{chapter.2}
-\contentsline {chapter}{\numberline {3}Theory and Background}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Learning environment}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Interactive learning environment}{11}{section.3.2}
-\contentsline {section}{\numberline {3.3}Intelligent Tutoring System}{12}{section.3.3}
-\contentsline {section}{\numberline {3.4}Intelligent learning environment}{13}{section.3.4}
-\contentsline {section}{\numberline {3.5}Fuzzy Logic}{13}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Fuzzy sets}{14}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Fuzzy logic controller}{14}{subsection.3.5.2}
-\contentsline {section}{\numberline {3.6}Learning object}{15}{section.3.6}
-\contentsline {section}{\numberline {3.7}NoSQL}{16}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}Key-Value example}{17}{subsection.3.7.1}
-\contentsline {subsection}{\numberline {3.7.2}Advantages of NoSQL systems}{18}{subsection.3.7.2}
-\contentsline {subsection}{\numberline {3.7.3}Main differences with SQL databases}{19}{subsection.3.7.3}
-\contentsline {subsection}{\numberline {3.7.4}Types of NoSQL databases}{19}{subsection.3.7.4}
-\contentsline {subsection}{\numberline {3.7.5}Examples of NoSQL databases}{21}{subsection.3.7.5}
-\contentsline {chapter}{\numberline {4}The Proposed Method}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}ELO}{24}{section.4.1}
-\contentsline {section}{\numberline {4.2}Fuzzy simple sequencing}{25}{section.4.2}
-\contentsline {section}{\numberline {4.3}Devices}{28}{section.4.3}
-\contentsline {section}{\numberline {4.4}Master / User}{28}{section.4.4}
-\contentsline {chapter}{\numberline {5}Experiments and Results}{29}{chapter.5}
-\contentsline {section}{\numberline {5.1}Experiments}{29}{section.5.1}
-\contentsline {section}{\numberline {5.2}Results}{32}{section.5.2}
-\contentsline {chapter}{\numberline {6}Environment Evaluation}{33}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclutions}{34}{chapter.7}
-\contentsline {chapter}{Bibliography}{36}{section*.6}
+\contentsline {section}{\numberline {1.3}Learnign Objects.}{10}{section.1.3}
+\contentsline {section}{\numberline {1.4}Aim's.}{12}{section.1.4}
+\contentsline {section}{\numberline {1.5}Outline.}{15}{section.1.5}
+\contentsline {chapter}{\numberline {2}Art State}{18}{chapter.2}
+\contentsline {chapter}{\numberline {3}Theory and Background}{22}{chapter.3}
+\contentsline {section}{\numberline {3.1}Learning environment}{22}{section.3.1}
+\contentsline {section}{\numberline {3.2}Interactive learning environment}{24}{section.3.2}
+\contentsline {section}{\numberline {3.3}Intelligent Tutoring System}{25}{section.3.3}
+\contentsline {section}{\numberline {3.4}Intelligent learning environment}{26}{section.3.4}
+\contentsline {section}{\numberline {3.5}Fuzzy Logic}{26}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Fuzzy sets}{27}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Fuzzy logic controller}{27}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Learning object}{28}{section.3.6}
+\contentsline {section}{\numberline {3.7}NoSQL}{30}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Key-Value example}{31}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Advantages of NoSQL systems}{32}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}Main differences with SQL databases}{33}{subsection.3.7.3}
+\contentsline {subsection}{\numberline {3.7.4}Types of NoSQL databases}{34}{subsection.3.7.4}
+\contentsline {subsection}{\numberline {3.7.5}Examples of NoSQL databases}{35}{subsection.3.7.5}
+\contentsline {chapter}{\numberline {4}The Proposed Method}{39}{chapter.4}
+\contentsline {section}{\numberline {4.1}ELO}{40}{section.4.1}
+\contentsline {section}{\numberline {4.2}Fuzzy simple sequencing}{41}{section.4.2}
+\contentsline {section}{\numberline {4.3}Devices}{44}{section.4.3}
+\contentsline {section}{\numberline {4.4}Master / User}{44}{section.4.4}
+\contentsline {chapter}{\numberline {5}Experiments and Results}{45}{chapter.5}
+\contentsline {section}{\numberline {5.1}Experiments}{45}{section.5.1}
+\contentsline {section}{\numberline {5.2}Results}{48}{section.5.2}
+\contentsline {chapter}{\numberline {6}Environment Evaluation}{49}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclutions}{50}{chapter.7}
+\contentsline {chapter}{Bibliography}{52}{section*.12}

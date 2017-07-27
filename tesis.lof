@@ -1,9 +1,15 @@
 \select@language {USenglish}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces A museum interactive station\relax }}{4}{figure.caption.4}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces A kid using and intelligent chalk-board\relax }}{7}{figure.caption.5}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces A kid using and intelligent chalk-board\relax }}{8}{figure.caption.5}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Key-Value Storage\relax }}{32}{figure.caption.6}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Document Database Example\relax }}{35}{figure.caption.7}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Graph Database Example\relax }}{36}{figure.caption.8}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Nosql Database Cassandra\relax }}{36}{figure.caption.9}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Nosql Database MongoDB\relax }}{37}{figure.caption.10}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Nosql Database CouchDB\relax }}{38}{figure.caption.11}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -1,20 +1,177 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[Chen et~al.(2007)Chen, Li, and Chen]{Chen2007}
+C.~M. Chen, Y.~L. Li, and M.~C. Chen.
+\newblock {P}ersonalized {C}ontext-{A}ware {U}biquitous {L}earning {S}ystem for
+  {S}upporting {E}ffectively {E}nglish {V}ocabulary {L}earning.
+\newblock In \emph{Seventh IEEE International Conference on Advanced Learning
+  Technologies (ICALT 2007)}, pages 628--630, July 2007.
+\newblock \doi{10.1109/ICALT.2007.202}.
+
+\bibitem[Chiappe~Laverde et~al.(2007)Chiappe~Laverde, Segovia~Cifuentes, and
+  Rinc{\'o}n~Rodr{\'i}guez]{ChiappeLaverde2007}
+Andr{\'e}s Chiappe~Laverde, Yasbley Segovia~Cifuentes, and Helda~Yadira
+  Rinc{\'o}n~Rodr{\'i}guez.
+\newblock Toward an instructional design model based on learning objects.
+\newblock \emph{Educational Technology Research and Development}, 55\penalty0
+  (6):\penalty0 671--681, Dec 2007.
+\newblock ISSN 1556-6501.
+\newblock \doi{10.1007/s11423-007-9059-0}.
+\newblock URL \url{http://dx.doi.org/10.1007/s11423-007-9059-0}.
+
+\bibitem[Chu et~al.(2010)Chu, Hwang, Tsai, and Tseng]{CHU20101618}
+Hui-Chun Chu, Gwo-Jen Hwang, Chin-Chung Tsai, and Judy~C.R. Tseng.
+\newblock A two-tier test approach to developing location-aware mobile learning
+  systems for natural science courses.
+\newblock \emph{Computers \& Education}, 55\penalty0 (4):\penalty0 1618 --
+  1627, 2010.
+\newblock ISSN 0360-1315.
+\newblock \doi{http://dx.doi.org/10.1016/j.compedu.2010.07.004}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360131510001879}.
+
+\bibitem[Dattolo and Loia(2000)]{Dattolo2000}
+A.~Dattolo and V.~Loia.
+\newblock A fuzzy approach to adaptive hypermedia.
+\newblock In \emph{Knowledge-Based Intelligent Engineering Systems and Allied
+  Technologies, 2000. Proceedings. Fourth International Conference on.},
+  volume~2, pages 700--703 vol.2, 2000.
+\newblock \doi{10.1109/KES.2000.884142}.
+
+\bibitem[Emurian et~al.(2008)Emurian, Holden, and Abarbanel]{EMURIAN2008576}
+Henry~H. Emurian, Heather~K. Holden, and Rachel~A. Abarbanel.
+\newblock {Managing programmed instruction and collaborative peer tutoring in
+  the classroom: Applications in teaching Java}.
+\newblock \emph{Computers in Human Behavior}, 24\penalty0 (2):\penalty0 576 --
+  614, 2008.
+\newblock ISSN 0747-5632.
+\newblock \doi{http://dx.doi.org/10.1016/j.chb.2007.02.007}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0747563207000532}.
+\newblock Part Special Issue: Cognition and Exploratory Learning in Digital
+  Age.
+
+\bibitem[Gerard(1967)]{gerard1967}
+R.~Gerard.
+\newblock {Shaping the mind: Computers in education}.
+\newblock \emph{Applied Science and Technological Progress: A Report to the
+  Committee on Science and Astronautics}, 1967.
+
+\bibitem[Gálvez et~al.(2009)Gálvez, Guzmán, and Conejo]{GALVEZ2009279}
+Jaime Gálvez, Eduardo Guzmán, and Ricardo Conejo.
+\newblock {A blended E-learning experience in a course of object oriented
+  programming fundamentals}.
+\newblock \emph{Knowledge-Based Systems}, 22\penalty0 (4):\penalty0 279 -- 286,
+  2009.
+\newblock ISSN 0950-7051.
+\newblock \doi{http://dx.doi.org/10.1016/j.knosys.2009.01.004}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0950705109000203}.
+\newblock Artificial Intelligence (AI) in Blended Learning.
+
+\bibitem[Govender(2009)]{GOVENDER20091218}
+Irene Govender.
+\newblock {The learning context: Influence on learning to program}.
+\newblock \emph{Computers \& Education}, 53\penalty0 (4):\penalty0 1218 --
+  1230, 2009.
+\newblock ISSN 0360-1315.
+\newblock \doi{http://dx.doi.org/10.1016/j.compedu.2009.06.005}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360131509001523}.
+\newblock Learning with ICT: New perspectives on help seeking and information
+  searching.
+
+\bibitem[Hauswirth and Adamoli(2013)]{HAUSWIRTH2013499}
+Matthias Hauswirth and Andrea Adamoli.
+\newblock {Teaching Java programming with the Informa clicker system}.
+\newblock \emph{Science of Computer Programming}, 78\penalty0 (5):\penalty0 499
+  -- 520, 2013.
+\newblock ISSN 0167-6423.
+\newblock \doi{http://dx.doi.org/10.1016/j.scico.2011.06.006}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0167642311001468}.
+\newblock Special section: Principles and Practice of Programming in Java
+  2009/2010 \& Special section: Self-Organizing Coordination.
+
+\bibitem[Hodgins(2002)]{wayneh}
+H.~Wayne Hodgins.
+\newblock {The Future of Learning Objects}.
+\newblock \emph{e-Technologies in Engineering Education: Learning Outcomes
+  Providing Future Possibilities}, 2002.
+
+\bibitem[Hwang(2003)]{HWANG2003217}
+Gwo-Jen Hwang.
+\newblock A conceptual map model for developing intelligent tutoring systems.
+\newblock \emph{Computers \& Education}, 40\penalty0 (3):\penalty0 217 -- 235,
+  2003.
+\newblock ISSN 0360-1315.
+\newblock \doi{http://dx.doi.org/10.1016/S0360-1315(02)00121-5}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360131502001215}.
+
+\bibitem[Hwang et~al.(2013)Hwang, Panjaburee, Triampo, and Shih]{BJET1319}
+Gwo-Jen Hwang, Patcharin Panjaburee, Wannapong Triampo, and Bo-Ying Shih.
+\newblock A group decision approach to developing concept–effect models for
+  diagnosing student learning problems in mathematics.
+\newblock \emph{British Journal of Educational Technology}, 44\penalty0
+  (3):\penalty0 453--468, 2013.
+\newblock ISSN 1467-8535.
+\newblock \doi{10.1111/j.1467-8535.2012.01319.x}.
+\newblock URL \url{http://dx.doi.org/10.1111/j.1467-8535.2012.01319.x}.
+
+\bibitem[Hwang et~al.(2012)Hwang, Shadiev, Wang, and Huang]{HWANG20121267}
+Wu-Yuin Hwang, Rustam Shadiev, Chin-Yu Wang, and Zhi-Hua Huang.
+\newblock A pilot study of cooperative programming learning behavior and its
+  relationship with students' learning performance.
+\newblock \emph{Computers \& Education}, 58\penalty0 (4):\penalty0 1267 --
+  1281, 2012.
+\newblock ISSN 0360-1315.
+\newblock \doi{http://dx.doi.org/10.1016/j.compedu.2011.12.009}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360131511003253}.
+
+\bibitem[IEEE(2002)]{ieee}
+IEEE.
+\newblock {Draft Standard for Learning Object Metadata}, 2002.
+
 \bibitem[Johnson(1991)]{john1991}
 W.~Lewis Johnson.
-\newblock Intelligent tutoring systems: Lessons learned.
+\newblock {Intelligent Tutoring Systems: Lessons Learned}.
 \newblock \emph{Artif. Intell.}, 48\penalty0 (1):\penalty0 125--134, 1991.
+
+\bibitem[Kordaki(2010)]{KORDAKI201069}
+Maria Kordaki.
+\newblock {A drawing and multi-representational computer environment for
+  beginners’ learning of programming using C: Design and pilot formative
+  evaluation}.
+\newblock \emph{Computers \& Education}, 54\penalty0 (1):\penalty0 69 -- 87,
+  2010.
+\newblock ISSN 0360-1315.
+\newblock \doi{http://dx.doi.org/10.1016/j.compedu.2009.07.012}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360131509001845}.
+
+\bibitem[Machanick(2007)]{MACHANICK2007396}
+Philip Machanick.
+\newblock {Teaching Java backwards}.
+\newblock \emph{Computers \& Education}, 48\penalty0 (3):\penalty0 396 -- 408,
+  2007.
+\newblock ISSN 0360-1315.
+\newblock \doi{http://dx.doi.org/10.1016/j.compedu.2005.01.009}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360131505000205}.
 
 \bibitem[Phillips et~al.(2010)Phillips, McNaught, and
   Kennedy]{PhilMcNaKenn2010zx}
 Rob Phillips, Carmel McNaught, and Gregor Kennedy.
-\newblock Towards a generalised conceptual framework for learning: the learning
-  environment, learning processes and learning outcomes (lepo) framework.
+\newblock {Towards a generalised conceptual framework for learning: the
+  Learning Environment, Learning Processes and Learning Outcomes (LEPO)
+  framework}.
 \newblock In Jan Herrington and Craig Montgomerie, editors, \emph{Proceedings
   of EdMedia: World Conference on Educational Media and Technology 2010}, pages
   2495--2504, Toronto, Canada, June 2010. Association for the Advancement of
@@ -23,12 +180,34 @@ Rob Phillips, Carmel McNaught, and Gregor Kennedy.
 
 \bibitem[Self(1998)]{self1998}
 John Self.
-\newblock The defining characteristics of intelligent tutoring systems
-  research: Itss care, precisely.
+\newblock {{T}he defining characteristics of intelligent tutoring systems
+  research: ITSs care, precisely}.
 \newblock \emph{{International Journal of Artificial Intelligence in Education
   (IJAIED)}}, 10:\penalty0 350--364, 1998.
 \newblock URL \url{https://telearn.archives-ouvertes.fr/hal-00197346}.
 \newblock The following papers are extended versions of some of the invited
   papers presented at ITS 98.
+
+\bibitem[Tseng et~al.(2008)Tseng, Chu, Hwang, and Tsai]{TSENG2008776}
+Judy~C.R. Tseng, Hui-Chun Chu, Gwo-Jen Hwang, and Chin-Chung Tsai.
+\newblock Development of an adaptive learning system with two sources of
+  personalization information.
+\newblock \emph{Computers \& Education}, 51\penalty0 (2):\penalty0 776 -- 786,
+  2008.
+\newblock ISSN 0360-1315.
+\newblock \doi{http://dx.doi.org/10.1016/j.compedu.2007.08.002}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360131507000966}.
+
+\bibitem[Wang et~al.(2012)Wang, Li, Feng, Jiang, and Liu]{WANG2012412}
+Yanqing Wang, Hang Li, Yuqiang Feng, Yu~Jiang, and Ying Liu.
+\newblock {Assessment of programming language learning based on peer code
+  review model: Implementation and experience report}.
+\newblock \emph{Computers \& Education}, 59\penalty0 (2):\penalty0 412 -- 422,
+  2012.
+\newblock ISSN 0360-1315.
+\newblock \doi{http://dx.doi.org/10.1016/j.compedu.2012.01.007}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360131512000085}.
 
 \end{thebibliography}
