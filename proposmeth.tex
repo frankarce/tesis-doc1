@@ -1,30 +1,61 @@
 \chapter{The Proposed Method} \label{proposmeth} 
-In this chapter, an architecture for developing interactive learning environments is proposed. The architecture allows the use of techniques of adaptive hypermedia systems and use in interactive environments. This architecture has as resources environmental learning objects, which are presented to users through the various devices that can be part of this environment and are organized by a sequence based on Simple Sequencing. Also a new method to automate the measurement of the level of attention of the user without using invasive methods. In Figure X we can observe the components of this architecture. As this environment has multiple configurations of use, sometimes it can help a fuzzy inference system to adapt the information presented by the environment to users. The components of the architecture are described in detail.
+In this chapter, an architecture for developing interactive learning environments is proposed. The architecture allows the use of techniques of adaptive hypermedia systems and use in interactive environments. This architecture has as resources environmental learning objects, which are presented to users through the various devices that can be part of this environment and are organized by a sequence based on Simple Sequencing. Also a new method to automate the measurement of the level of attention of the user without using invasive methods. In Figure \ref{architecture} we can observe the components of this architecture. As this environment has multiple configurations of use, sometimes it can help a fuzzy inference system to adapt the information presented by the environment to users. The components of the architecture are described in detail.
+
+\begin{figure}[ht!]  
+\centering  
+\includegraphics[scale=1]{arquitectura}
+\quad  
+\caption{Adaptive Learning Environment Architecture}  
+\label{architecture}  
+\end{figure}
+
 
 \section{Environment}
-Los ambientes inteligentes son espacios con sistemas embebidos, sensores y tecnologías de información y comunicación que se van haciendo imperceptibles para el usuario a media que van siendo integrados en objetos físicos, infraestructuras, el entorno en que vivimos, el trabajo y muchos otros ambientes. Los ambientes inteligentes interactivos facilitan herramientas con las cuales los usuarios pueden interactuar, lo que hace que este espacio sea interactivo por lo que la computación se aproxima más al usuario. Existen otros tipos de ambientes como e-learning que son ambientes de aprendizaje virtuales donde un usuario aprende individualmente ciertos temas a partir de objetos de aprendizaje. Los trabajos en este tipo de ambientes de aprendizaje han utilizado diferentes técnicas para secuenciar y seleccionar los objetos de aprendizaje para cubrir las necesidades de aprendizaje del individuo como el secuenciado simple (referencia a la tesis del profe). 
+%Los ambientes inteligentes son espacios con sistemas embebidos, sensores y tecnologías de información y comunicación que se van haciendo imperceptibles para el usuario a media que van siendo integrados en objetos físicos, infraestructuras, el entorno en que vivimos, el trabajo y muchos otros ambientes. Los ambientes inteligentes interactivos facilitan herramientas con las cuales los usuarios pueden interactuar, lo que hace que este espacio sea interactivo por lo que la computación se aproxima más al usuario. Existen otros tipos de ambientes como e-learning que son ambientes de aprendizaje virtuales donde un usuario aprende individualmente ciertos temas a partir de objetos de aprendizaje. Los trabajos en este tipo de ambientes de aprendizaje han utilizado diferentes técnicas para secuenciar y seleccionar los objetos de aprendizaje para cubrir las necesidades de aprendizaje del individuo como el secuenciado simple (referencia a la tesis del profe). 
 
-Actualmente existen ciertas limitaciones con los ambientes inteligentes por ejemplo:
+Intelligent environments are spaces with embedded systems, sensors and information and communication technologies that are becoming imperceptible to the average user that are being integrated into physical objects, infrastructures, the environment in which we live, work and many other environments.
+Intelligent interactive environments provide tools with which users can interact, which makes this space interactive so that the computer is closer to the user. There are other types of environments such as e-learning that are virtual learning environments where a user learns individually certain topics from learning objects. The work in this type of learning environments has used different techniques to sequence and select learning objects to cover the learning needs of the individual such as simple sequencing (referencia a la tesis del profe). 
+
+\begin{figure}[ht!]  
+\centering  
+\includegraphics[scale=1]{elearning}
+\quad  
+\caption{E-Learning}  
+\label{keyvalue}  
+\end{figure}
+The problem we notice is that most of them focus on a single solution, either oriented to learning, modify the environment, that handle only one user at a time. In reviewing the literature we realized that by combining certain standards there is an improvement in the user's learning experience. Currently there are certain limitations with intelligent environments such as:
 \begin{itemize}	
-\item Los ambientes de aprendizaje están pensados para que los objetos de aprendizaje sean utilizados por un usuario a la vez.
-\item La información contextual aveces no es considerada.
-\item Normalmente el ambiente no puede ser llevado a otros lugares sin tener que hacerle modificaciones.
-\item Algunos trabajos con ambientes utilizan dispositivos que no son tan avanzados como lo son ahora a demás de que se han hecho mas accesibles económicamente.
+\item Learning environments are designed so that learning objects are used by one user at a time.
+\item Contextual information is sometimes not considered.
+\item Usually the environment can not be taken to other places without having to make modifications.
+\item Some works with environments use devices that are not as advanced as they are now, and have become more accessible economically.
+\end{itemize}
 
-Proponemos generar un ambiente que gracias a un servicio web sea capaz de atacar todas las limitaciones que observamos en los ambientes de aprendizaje actuales. gracias a los servicios web podemos crear repositorios que pueden estar disponibles siempre y cuando exista una conexion a internet, pero que pasa con aquellos lugares donde no exista tal conexion, 
+%Proponemos generar un ambiente que gracias a un servicio web sea capaz de atacar todas las limitaciones que observamos en los ambientes de aprendizaje actuales. Gracias a los servicios web podemos crear repositorios que pueden estar disponibles siempre y cuando exista una conexion a internet, pero que pasa con aquellos lugares donde no exista tal conexion, para estos casos se puede llevar un repositorio que sirva como local para poder obtener los objetos de aprendizaje o el contenido. Ademas el ambiente esta centrado para atender a un grupo de usuarios.
+We propose to generate an environment that thanks to a web service is capable of attacking all the limitations that we observe in the current learning environments. Thanks to the web services we can create repositories that can be available as long as there is an internet connection. But what about those places where there is no such connection? For these cases you can take a repository that serves as a local to be able to obtain learning objects or content. In addition the environment is focused to serve a group of users.
 
-
-
+%El ambiente de aprendizaje propuesto tiene proyectados varios usos, el primero de ellos y obviamente como ambiente de aprendizaje, como exhibidor de museo, entrenamiento, entretenimiento, publicidad, juegos. y esto es posible gracias al servicio web que permite utilizar diferentes objetos de aprendizaje y de diferentes tipos en cualquier dispositivo sea capaz de correr un navegador web y que este disponible.
+The proposed learning environment has several uses, the first of them and obviously as a learning environment, as a museum exhibitor, training, entertainment, advertising, games. And this is possible thanks to the web service that allows to use different learning objects and of different types in any device that is able to run a web browser and that it is available.
+Then we will be concerned with the learning part, the modification of the environment and the user resulting in a learning environment that can be manipulated or adjusted to the needs of the users. In order to carry out this, we propose a new learning object methodology, which we will call "Environmental Learning Object", this object will be used in a learning environment where users can interact with it. We will speak more specifically about this proposal later.
 
 \section{ELO}
-A standard learning object is defined in [2]. The teacher prepares teaching materials using content from various sources; select different pieces of information that subsequently assembled to form the course or class to teach. Learning objects are based on this methodology, seeing the didactic content as a component that is designed to combine with others and to be used in different contexts; learning objects usually have the following characteristics: 
+A standard learning object is defined in \cite{wayneh}. The teacher prepares teaching materials using content from various sources; select different pieces of information that subsequently assembled to form the course or class to teach. Learning objects are based on this methodology, seeing the didactic content as a component that is designed to combine with others and to be used in different contexts; learning objects usually have the following characteristics: 
 •	They are self-contained. Each learning object can be used independently. 
 •	Are reusable. A learning object can be used in different contexts, for multiple purposes. 
 •	Can be added. Learning objects can be grouped into collections, after being presented with a traditional course structure. 
 •	Are labeled with metadata. Each learning object has associated certain in-formation that describes it. This facilitates reuse by automatic means.
-We propose a learning environment that uses a new type of learning object which we call "environmental learning object" (ELO) these objects include additional metadata that can be used to identify and manage content for their use in ubiquitous devices: we considered input and output devices e.g. interactive tables, wall projections, monitors, tablets, cameras, microphones and speakers.
+We propose a learning environment that uses a new type of learning object which we call "Environmental Learning Object" (ELO) these objects include additional metadata that can be used to identify and manage content for their use in ubiquitous devices: we considered input and output devices e.g. interactive tables, wall projections, monitors, tablets, cameras, microphones and speakers.
 By tagging through the metadata we can make a selection of learning objects to create and manage different contexts when applied to a learning environment as we can note in Figure.
-Where each learning object is selected and routed to a device that operates its utility like a sound file that can’t be used on a monitor maybe on a Smartphone or a tablet pc, these are the types of problems that can occur when using these learning objects. Also this ELO will give contextual information for feedback. Then the learning object is attached to the sequence as we can see on the figure 3.1.
+Where each learning object is selected and routed to a device that operates its utility like a sound file that can’t be used on a monitor maybe on a Smartphone or a tablet pc, these are the types of problems that can occur when using these learning objects. Also this ELO will give contextual information for feedback. 
+
+Objeto de Aprendizaje Ambiental (OAA) es un objeto de aprendizaje que permite la distribución de contenido a diversos dispositivos con la condición de que deben estar disponibles y ser compatibles en un ambiente de aprendizaje interactivo.
+Un objeto de aprendizaje ambiental (OAA) se determina por la tupla <O,D> donde O es un conjunto de objetos de aprendizaje y D es un conjunto de Dispositivos.
+OOA=((O,D),D)
+
+Donde un objeto de aprendizaje o ? O objetos de aprendizaje como entidades, digitales o no digitales, que pueden ser utilizadas para promover el aprendizaje, educación o entrenamiento.
+Y un dispositivo d ? D dispositivos con la condición de que deben estar disponibles y ser compatibles en un ambiente de aprendizaje interactivo.
+
+
 \section{Fuzzy simple sequencing}
 Simple sequencing standard[18] [19], which allows sequencing of this type of learning objects. First an activity tree with n number of activities is determined by the teacher, selecting the learning objects to be used per activity and adding fuzzy pre-condition rules that consider the context and user model to determine the sequence, for example:
 IF Context.Temperature is HIGH and Session.Activity.Place is OUTSIDE
@@ -34,6 +65,6 @@ Then context information is obtained from users using the sensors mentioned abov
 The main components of the Simple Sequencing standard are the Learning Activities and the Activity Tree. A Learning Activity is defined as a pedagogically neutral unit of instruction, knowledge, evaluation, etc. Learning Activities can have nested sub-activities arbitrary depth. 
 There is an implicit hierarchy of containers in the tree. Depending on the application concept labels can be applied to learning activities. Only leaf nodes can be associated with Resources Activity (the equivalent of Learning Objects).An example of the configuration obtained by sequencing can be observed in Figure 3.2. The tree is traversed as follows from the root there is the General activity (can be any subject in particular) with 2 nodes in it, we see that has the attribute "forwardOnly" on true, this means they have to be traveled sequentially by users, the first activity is a pre-evaluation, which is associated with a learning object in this case a test that contains a rule that makes the activity is carried out or otherwise will not advance to the next activity, as specified in the Pre\_condition rule.
 When a learning sequence is generated learning activities are established and they not change, what changes is the action as if you skip, performed, jump, hide, repeat or show an activity, this decision is taken by the rules of precondition. In this paper we seek to generate diversity of resources displayed in the activities adapting the resources of the activity to the user,  for example we have an introductory activity of a particular subject and 2 users of different ages perform the activity, the first user of 25 years will be shown more detailed and textual information, while the second user of 6 years of age is in a very early stage of learning resources that show you are easier to understand and have more audio-visual con-tent. With fuzzy logic generate inputs for use in the precondition rules for example: fuzzy rule if user.age is low and user.academic\_level is low then user.level is begginer. On the precondition rule we will use the output of the fuzzy rule will use the output of that fuzzy rule as follows if user=begginer then pre\_condition = show. Thus a set of resources is obtained for a novice user and these are shown on the right devices for each resource through a web browser running in this device as we can see on the figure 1.
-Los recursos son los objetos de aprendizaje, los cuales como ya sabemos pueden ser cualquier video, imagen, audio o texto, para esta investigación utilizamos una gran cantidad de imágenes videos y audios. Con un aproximado de 100 imágenes, 10 videos y más de 20 audios fue lo que formo parte de cada una de las configuraciones del ambiente. Al inicio las dimensiones de las imágenes fueron un problema ya que no todos los dispositivos tenían resoluciones similares, tiempo después se implemento una forma de ajustar las imágenes a la resolución de cada pantalla o proyector. Al igual que las imágenes los videos tuvieron el mismo problema ya solucionado en las últimas versiones.
+
 \section{Devices}
 \section{Master / User}
