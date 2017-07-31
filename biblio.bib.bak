@@ -420,7 +420,7 @@
   year    = {2002},
 }
 
-@Standard{LEieee,
+@Standard{ieee,
   title        = {{Draft Standard for Learning Object Metadata}},
   organization = {Institute of Electrical and Electronics Engineers.},
   institution  = {Learning Technology Standards Committee},
@@ -442,6 +442,13 @@
   day      = {01},
   doi      = {10.1007/s11423-007-9059-0},
   url      = {http://dx.doi.org/10.1007/s11423-007-9059-0},
+}
+
+@PhdThesis{mariotesis,
+  author = {Jose Mario Garcia Valdez},
+  title  = {Aprendizaje colaborativo basado en recursos adaptativos},
+  school = {Universidad Aut´onoma de Baja California},
+  year   = {2008},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -1,9 +1,17 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{23}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bravo et~al.(2005)Bravo, Herv{\'a}s, Chavira, Nava, and
+  Sanz]{bravo2005display}
+Jos{\'e} Bravo, Ram{\'o}n Herv{\'a}s, G~Chavira, S~Nava, and Jorge Sanz.
+\newblock Display-based services through identification: An approach in a
+  conference context.
+\newblock \emph{Ubiquitous Computing \& Ambient Intelligence (UCAmI’05).
+  Thomson. ISBN}, pages 84--9732, 2005.
 
 \bibitem[Chen et~al.(2007)Chen, Li, and Chen]{Chen2007}
 C.~M. Chen, Y.~L. Li, and M.~C. Chen.
@@ -198,6 +206,11 @@ Judy~C.R. Tseng, Hui-Chun Chu, Gwo-Jen Hwang, and Chin-Chung Tsai.
 \newblock \doi{http://dx.doi.org/10.1016/j.compedu.2007.08.002}.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0360131507000966}.
+
+\bibitem[Valdez(2008)]{mariotesis}
+Jose Mario~Garcia Valdez.
+\newblock \emph{Aprendizaje colaborativo basado en recursos adaptativos}.
+\newblock PhD thesis, Universidad Aut´onoma de Baja California, 2008.
 
 \bibitem[Wang et~al.(2012)Wang, Li, Feng, Jiang, and Liu]{WANG2012412}
 Yanqing Wang, Hang Li, Yuqiang Feng, Yu~Jiang, and Ying Liu.
