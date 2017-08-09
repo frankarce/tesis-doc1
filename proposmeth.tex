@@ -1,5 +1,5 @@
 \chapter{The Proposed Method} \label{proposmeth} 
-In this chapter, an architecture for developing interactive learning environments is proposed. The architecture allows the use of techniques of adaptive hypermedia systems and use in interactive environments. This architecture has as resources environmental learning objects, which are presented to users through the various devices that can be part of this environment and are organized by a sequence based on Simple Sequencing. Also a new method to automate the measurement of the level of attention of the user without using invasive methods. In Figure \ref{architecture} we can observe the components of this architecture. As this environment has multiple configurations of use, sometimes it can help a fuzzy inference system to adapt the information presented by the environment to users. The components of the architecture are described in detail.
+In this chapter, an architecture for developing interactive learning environments is proposed. The architecture allows the use of techniques of adaptive hypermedia systems and use in interactive environments. This architecture has as resources environmental learning objects, which are presented to users through the various devices that can be part of this environment and are organized by a sequence based on Simple Sequencing. Also a new method to automate the measurement of the level of attention of the user without using invasive methods. In Figure \ref{arquitectura} we can observe the components of this architecture. As this environment has multiple configurations of use, sometimes it can help a fuzzy inference system to adapt the information presented by the environment to users. The components of the architecture are described in detail.
 
 \begin{figure}[ht!]  
 \centering  
@@ -44,10 +44,12 @@ A standard learning object is defined in \cite{wayneh}. The teacher prepares tea
 •	Are reusable. A learning object can be used in different contexts, for multiple purposes. 
 •	Can be added. Learning objects can be grouped into collections, after being presented with a traditional course structure. 
 •	Are labeled with metadata. Each learning object has associated certain in-formation that describes it. This facilitates reuse by automatic means.
+
+\subection{Proposed learning object}
 We propose a learning environment that uses a new type of learning object which we call "Environmental Learning Object" (ELO) these objects include additional metadata that can be used to identify and manage content for their use in ubiquitous devices: we considered input and output devices e.g. interactive tables, wall projections, monitors, tablets, cameras, microphones and speakers.
 By tagging through the metadata we can make a selection of learning objects to create and manage different contexts when applied to a learning environment as we can note in Figure.
 Where each learning object is selected and routed to a device that operates its utility like a sound file that can’t be used on a monitor maybe on a Smartphone or a tablet pc, these are the types of problems that can occur when using these learning objects. Also this ELO will give contextual information for feedback. 
-
+\subection{Formal definition.}
 Objeto de Aprendizaje Ambiental (OAA) es un objeto de aprendizaje que permite la distribución de contenido a diversos dispositivos con la condición de que deben estar disponibles y ser compatibles en un ambiente de aprendizaje interactivo.
 Un objeto de aprendizaje ambiental (OAA) se determina por la tupla <O,D> donde O es un conjunto de objetos de aprendizaje y D es un conjunto de Dispositivos.
 OOA=((O,D),D)
@@ -55,7 +57,7 @@ OOA=((O,D),D)
 Donde un objeto de aprendizaje o ? O objetos de aprendizaje como entidades, digitales o no digitales, que pueden ser utilizadas para promover el aprendizaje, educación o entrenamiento.
 Y un dispositivo d ? D dispositivos con la condición de que deben estar disponibles y ser compatibles en un ambiente de aprendizaje interactivo.
 
-
+\subection{Formal definition.}
 \section{Fuzzy simple sequencing}
 Simple sequencing standard[18] [19], which allows sequencing of this type of learning objects. First an activity tree with n number of activities is determined by the teacher, selecting the learning objects to be used per activity and adding fuzzy pre-condition rules that consider the context and user model to determine the sequence, for example:
 IF Context.Temperature is HIGH and Session.Activity.Place is OUTSIDE
@@ -68,3 +70,17 @@ When a learning sequence is generated learning activities are established and th
 
 \section{Devices}
 \section{Master / User}
+\section{Engagement}
+The other way to obtain user information was by Kinect Sensor and is a bit more complex because the sensor provides enough information the sensor detects a user can give: 
+• engage 
+• looking away 
+• happy 
+• left eye closed 
+• right eye closed
+• mouth open 
+• mouth moved 
+• wearing glasses 
+• yaw pitch and roll of the face
+Each of these data the sensor assigned one of the following Yes, No, Maybe and Unknown values; unknown data were discarded since in the sensor documentation was saying that this data could be”not sensing” and therefore not considered valid data. Only in the face position was a numerical data, the sensor generated an average of 14 records per second of these values sometimes less for a short time when the sensor lost sight of the user but was usually between 1 to 10 seconds.
+Full activity was carried out in 4 minutes 10 seconds so if the sensor not loses sight of the user throughout the activity it generates about 3500 records. From the above list of data we decided to use only engage, looking away happy and others are captured but used as they are not relevant to what we are measuring. To get textual results perform a normalization by a count of each event every 10 seconds since the data generated by the sensor are textual normalized by assigning numbers to strings for example Yes = 2, Maybe = 1 and No = 0 then for every 10 seconds of activity the Yes, No and Maybe was counted.
+As the activity lasted 4:10 we decided to count the sensor event every 10 seconds, at the end we gained an average of 140 records for each period of 10 seconds. Here I was a problem, as the number of records varied by user we had to think about how to normalize this data, as records were recorded and distributed yes, maybe, no the solution was to take a percentage of each of the records obtained by which thus we could handle and sensor data.

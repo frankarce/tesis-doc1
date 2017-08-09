@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.1)  30 JUL 2017 21:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.1)  8 AUG 2017 21:13
 entering extended mode
 **./tesis.tex
 (tesis.tex
@@ -531,7 +531,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip76
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 119.
+Package hyperref Info: Option `colorlinks' set `true' on input line 121.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\hypcap.sty"
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
@@ -566,23 +566,30 @@ LaTeX Warning: Label `tab:users2' multiply defined.
 
 LaTeX Warning: Label `tab:users2' multiply defined.
 
-) (enveva.aux) (conclu.aux))
+
+LaTeX Warning: Label `tab:users2' multiply defined.
+
+) (enveva.aux
+
+LaTeX Warning: Label `tab:SVMhm' multiply defined.
+
+) (conclu.aux) (appe1.aux))
 \openout1 = `tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -653,7 +660,7 @@ Package caption Info: End \AtBeginDocument code.
 ! Undefined control sequence.
 <argument> \sf@counterlist 
                            
-l.121 \begin{document}
+l.123 \begin{document}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -663,7 +670,7 @@ and I'll forget about whatever was undefined.
 
 \c@lstlisting=\count168
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 121.
+Package hyperref Info: Link coloring ON on input line 123.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -672,9 +679,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count169
 )
-LaTeX Info: Redefining \ref on input line 121.
-LaTeX Info: Redefining \pageref on input line 121.
-LaTeX Info: Redefining \nameref on input line 121.
+LaTeX Info: Redefining \ref on input line 123.
+LaTeX Info: Redefining \pageref on input line 123.
+LaTeX Info: Redefining \nameref on input line 123.
  (tesis.out) (tesis.out)
 \@outlinefile=\write4
 \openout4 = `tesis.out'.
@@ -713,13 +720,13 @@ Package Fancyhdr Warning: \headheight is too small (10.0pt):
 \tf@lof=\write6
 \openout6 = `tesis.lof'.
 
- [6] (tesis.lot)
+ [6] (tesis.lot [7
+
+])
 \tf@lot=\write7
 \openout7 = `tesis.lot'.
 
- [1
-
-]
+ [1]
 \openout2 = `introduction.aux'.
 
  (introduction.tex
@@ -731,7 +738,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<./img/musint.jpg, id=339, 5562.7825pt x 3708.85625pt>
+<./img/musint.jpg, id=411, 5562.7825pt x 3708.85625pt>
 File: ./img/musint.jpg Graphic file (type jpg)
  <use ./img/musint.jpg>
 Package pdftex.def Info: ./img/musint.jpg used on input line 15.
@@ -785,7 +792,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
- [6] <./img/pizzarra.png, id=360, 331.2375pt x 220.825pt>
+ [6] <./img/pizzarra.png, id=433, 331.2375pt x 220.825pt>
 File: ./img/pizzarra.png Graphic file (type png)
 
 <use ./img/pizzarra.png>
@@ -840,26 +847,27 @@ Missing character: There is no Å in font cmr12!
 
  (artstate.tex
 Chapter 2.
+
+Package natbib Warning: Citation `Valdez2007' on page 18 undefined on input line 8.
+
+[18
+
+
+
+]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-
-Underfull \vbox (badness 1931) has occurred while \output is active []
-
- [18
-
-
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]) [21]
+ [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]) [22]
 \openout2 = `theoryandbg.aux'.
 
  (theoryandbg.tex
@@ -874,46 +882,46 @@ Missing character: There is no ì in font cmr12!
 Missing character: There is no î in font cmr12!
 Missing character: There is no ì in font cmr12!
 Missing character: There is no î in font cmr12!
-[22
+[23
 
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-Missing character: There is no ì in font cmr12!
-Missing character: There is no î in font cmr12!
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [26]
 Missing character: There is no ì in font cmr12!
 Missing character: There is no î in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no î in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no î in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no î in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no î in font cmr12!
-Missing character: There is no ì in font cmr12!
-Missing character: There is no î in font cmr12!
  [27]
-Underfull \vbox (badness 1259) has occurred while \output is active []
-
+Missing character: There is no ì in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no î in font cmr12!
  [28]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1259) has occurred while \output is active []
 
  [29]
-Underfull \vbox (badness 1259) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30]
-<./img/nosqlejemplo.png, id=503, 291.0875pt x 301.125pt>
+Underfull \vbox (badness 1259) has occurred while \output is active []
+
+ [31]
+<./img/nosqlejemplo.png, id=581, 291.0875pt x 301.125pt>
 File: ./img/nosqlejemplo.png Graphic file (type png)
  <use ./img/nosqlejemplo.png>
 Package pdftex.def Info: ./img/nosqlejemplo.png used on input line 52.
@@ -925,8 +933,8 @@ Missing character: There is no ï in font cmr12!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31] [32 <./img/nosqlejemplo.png>] [33]
-<./img/basededatosdoc.png, id=519, 397.485pt x 219.33945pt>
+ [32] [33 <./img/nosqlejemplo.png>] [34]
+<./img/basededatosdoc.png, id=596, 397.485pt x 219.33945pt>
 File: ./img/basededatosdoc.png Graphic file (type png)
  <use ./img/basededatosdoc.png>
 Package pdftex.def Info: ./img/basededatosdoc.png used on input line 87.
@@ -934,22 +942,22 @@ Package pdftex.def Info: ./img/basededatosdoc.png used on input line 87.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
-<./img/Graph-database.jpg, id=524, 401.5pt x 280.04625pt>
+ [35]
+<./img/Graph-database.jpg, id=601, 401.5pt x 280.04625pt>
 File: ./img/Graph-database.jpg Graphic file (type jpg)
  <use ./img/Graph-database.jpg>
 Package pdftex.def Info: ./img/Graph-database.jpg used on input line 97.
 (pdftex.def)             Requested size: 301.12425pt x 210.03415pt.
 Missing character: There is no ï in font cmr12!
 
-<./img/cassandra.png, id=525, 2007.5pt x 1346.02875pt>
+<./img/cassandra.png, id=602, 2007.5pt x 1346.02875pt>
 File: ./img/cassandra.png Graphic file (type png)
  <use ./img/cassandra.png>
 Package pdftex.def Info: ./img/cassandra.png used on input line 111.
 (pdftex.def)             Requested size: 200.76175pt x 134.61075pt.
 Missing character: There is no ï in font cmr12!
- [35 <./img/basededatosdoc.png>]
-<./img/mongo.png, id=530, 423.0204pt x 114.9093pt>
+ [36 <./img/basededatosdoc.png>]
+<./img/mongo.png, id=608, 423.0204pt x 114.9093pt>
 File: ./img/mongo.png Graphic file (type png)
  <use ./img/mongo.png>
 Package pdftex.def Info: ./img/mongo.png used on input line 122.
@@ -957,55 +965,22 @@ Package pdftex.def Info: ./img/mongo.png used on input line 122.
 
 Underfull \vbox (badness 5711) has occurred while \output is active []
 
- [36 <./img/Graph-database.jpg> <./img/cassandra.png>]
+ [37 <./img/Graph-database.jpg> <./img/cassandra.png>]
 Missing character: There is no ï in font cmr12!
- <./img/couchdb.jpg, id=536, 281.05pt x 180.675pt>
+ <./img/couchdb.jpg, id=614, 281.05pt x 180.675pt>
 File: ./img/couchdb.jpg Graphic file (type jpg)
  <use ./img/couchdb.jpg>
 Package pdftex.def Info: ./img/couchdb.jpg used on input line 133.
 (pdftex.def)             Requested size: 281.0493pt x 180.67455pt.
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-) [37 <./img/mongo.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [38 <./img/couchdb.jpg>] [39]
+) [38 <./img/mongo.png>] [39 <./img/couchdb.jpg>]
 \openout2 = `proposmeth.aux'.
 
  (proposmeth.tex
 Chapter 4.
-<./img/arquitectura.png, id=552, 388.45125pt x 254.45062pt>
+
+LaTeX Warning: Reference `arquitectura' on page 40 undefined on input line 2.
+
+<./img/arquitectura.png, id=624, 388.45125pt x 254.45062pt>
 File: ./img/arquitectura.png Graphic file (type png)
  <use ./img/arquitectura.png>
 Package pdftex.def Info: ./img/arquitectura.png used on input line 6.
@@ -1021,7 +996,7 @@ Underfull \vbox (badness 1931) has occurred while \output is active []
 Underfull \vbox (badness 4378) has occurred while \output is active []
 
  [41 <./img/arquitectura.png>]
-<./img/elearning.png, id=561, 332.24126pt x 401.5pt>
+<./img/elearning.png, id=633, 332.24126pt x 401.5pt>
 File: ./img/elearning.png Graphic file (type png)
  <use ./img/elearning.png>
 Package pdftex.def Info: ./img/elearning.png used on input line 21.
@@ -1039,16 +1014,30 @@ Underfull \vbox (badness 1259) has occurred while \output is active []
  [44]
 Missing character: There is no Û in font cmr12!
 Missing character: There is no Û in font cmr12!
+Missing character: There is no Û in font cmr12!
+Missing character: There is no Û in font cmr12!
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2772) has occurred while \output is active []
 
  [45]
-Missing character: There is no Û in font cmr12!
-Missing character: There is no Û in font cmr12!
+Underfull \vbox (badness 1259) has occurred while \output is active []
+
  [46]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]) [48]
+ [47]
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no î in font cmr12!
+) [48] [49]
 \openout2 = `expres.aux'.
 
  (expres.tex
@@ -1059,7 +1048,7 @@ Missing character: There is no Ç in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ¢ in font cmr12!
-[49
+[50
 
 
 
@@ -1070,146 +1059,127 @@ Missing character: There is no ¢ in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ¢ in font cmr12!
- [50] [51] <./img/ambiente2.png, id=610, 407.27156pt x 260.47313pt>
+ [51] <./img/ambiente2.png, id=681, 407.27156pt x 260.47313pt>
 File: ./img/ambiente2.png Graphic file (type png)
  <use ./img/ambiente2.png>
-Package pdftex.def Info: ./img/ambiente2.png used on input line 27.
+Package pdftex.def Info: ./img/ambiente2.png used on input line 28.
 (pdftex.def)             Requested size: 407.27055pt x 260.47249pt.
-
-<./img/Jaime_Nuno2.png, id=612, 1657.69313pt x 471.26062pt>
-File: ./img/Jaime_Nuno2.png Graphic file (type png)
- <use ./img/Jaime_Nuno2.png>
-Package pdftex.def Info: ./img/Jaime_Nuno2.png used on input line 39.
-(pdftex.def)             Requested size: 414.42227pt x 117.81487pt.
- [52 <./img/ambiente2.png>]
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ≥ in font cmr12!
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ≥ in font cmr12!
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no √ in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no √ in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ± in font cmr12!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53 <./img/Jaime_Nuno2.png>]
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ≠ in font cmr12!
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ≥ in font cmr12!
+ [52]
+<./img/Jaime_Nuno2.png, id=687, 1657.69313pt x 471.26062pt>
+File: ./img/Jaime_Nuno2.png Graphic file (type png)
+ <use ./img/Jaime_Nuno2.png>
+Package pdftex.def Info: ./img/Jaime_Nuno2.png used on input line 43.
+(pdftex.def)             Requested size: 414.42227pt x 117.81487pt.
+
+Underfull \vbox (badness 1466) has occurred while \output is active []
+
+ [53 <./img/ambiente2.png>] [54 <./img/Jaime_Nuno2.png>]
+
+LaTeX Warning: Reference `users2' on page 55 undefined on input line 85.
 
 
-LaTeX Warning: Reference `users2' on page 54 undefined on input line 79.
-
-
-Overfull \hbox (52.45274pt too wide) in paragraph at lines 88--100
+Overfull \hbox (52.45274pt too wide) in paragraph at lines 95--107
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ¨ in font cmr12!
 Missing character: There is no Ç in font cmr12!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [55]
-<./img/agua.jpg, id=635, 1606.0pt x 1089.06876pt>
-File: ./img/agua.jpg Graphic file (type jpg)
- <use ./img/agua.jpg>
-Package pdftex.def Info: ./img/agua.jpg used on input line 107.
-(pdftex.def)             Requested size: 113.81102pt x 77.17319pt.
+<./img/casodeestudio.png, id=706, 457.71pt x 256.70906pt>
+File: ./img/casodeestudio.png Graphic file (type png)
+ <use ./img/casodeestudio.png>
+Package pdftex.def Info: ./img/casodeestudio.png used on input line 114.
+(pdftex.def)             Requested size: 113.81102pt x 63.82848pt.
 
-<./img/agua3.png, id=636, 202.50656pt x 217.5628pt>
-File: ./img/agua3.png Graphic file (type png)
- <use ./img/agua3.png>
-Package pdftex.def Info: ./img/agua3.png used on input line 108.
-(pdftex.def)             Requested size: 113.81102pt x 122.27586pt.
+<./img/casodeestudio2-1.png, id=707, 359.09157pt x 288.3272pt>
+File: ./img/casodeestudio2-1.png Graphic file (type png)
+ <use ./img/casodeestudio2-1.png>
+Package pdftex.def Info: ./img/casodeestudio2-1.png used on input line 115.
+(pdftex.def)             Requested size: 113.81102pt x 91.38228pt.
 
-Underfull \hbox (badness 4792) in paragraph at lines 108--108
+Underfull \hbox (badness 4792) in paragraph at lines 115--115
 []\OT1/cmr/m/n/10 (b) Front view of the
  []
 
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ± in font cmr12!
-[56 <./img/agua.jpg> <./img/agua3.png>] <./img/trompo1.jpg, id=645, 4336.2pt x 2441.12pt>
+<./img/trompo1.jpg, id=709, 4336.2pt x 2441.12pt>
 File: ./img/trompo1.jpg Graphic file (type jpg)
  <use ./img/trompo1.jpg>
-Package pdftex.def Info: ./img/trompo1.jpg used on input line 117.
+Package pdftex.def Info: ./img/trompo1.jpg used on input line 124.
 (pdftex.def)             Requested size: 346.90309pt x 195.2936pt.
+
+Underfull \vbox (badness 3323) has occurred while \output is active []
+
+ [56]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no ± in font cmr12!
-File: ./img/agua.jpg Graphic file (type jpg)
 
-<use ./img/agua.jpg>
-Package pdftex.def Info: ./img/agua.jpg used on input line 128.
+<./img/agua.jpg, id=715, 1606.0pt x 1089.06876pt>
+File: ./img/agua.jpg Graphic file (type jpg)
+ <use ./img/agua.jpg>
+Package pdftex.def Info: ./img/agua.jpg used on input line 136.
 (pdftex.def)             Requested size: 113.81102pt x 77.17319pt.
+
+<./img/agua3.png, id=716, 202.50656pt x 217.5628pt>
 File: ./img/agua3.png Graphic file (type png)
  <use ./img/agua3.png>
-Package pdftex.def Info: ./img/agua3.png used on input line 129.
+Package pdftex.def Info: ./img/agua3.png used on input line 137.
 (pdftex.def)             Requested size: 113.81102pt x 122.27586pt.
- <./img/agua2.jpg, id=647, 426.8748pt x 201.8742pt>
+
+<./img/agua2.jpg, id=717, 426.8748pt x 201.8742pt>
 File: ./img/agua2.jpg Graphic file (type jpg)
  <use ./img/agua2.jpg>
-Package pdftex.def Info: ./img/agua2.jpg used on input line 130.
+Package pdftex.def Info: ./img/agua2.jpg used on input line 138.
 (pdftex.def)             Requested size: 227.62204pt x 107.64584pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57 <./img/trompo1.jpg>] [58 <./img/agua2.jpg>]
-<./img/exp2.png, id=660, 566.86781pt x 247.67531pt>
+ [57 <./img/casodeestudio.png> <./img/casodeestudio2-1.png>] <./img/exp2.png, id=725, 566.86781pt x 247.67531pt>
 File: ./img/exp2.png Graphic file (type png)
  <use ./img/exp2.png>
-Package pdftex.def Info: ./img/exp2.png used on input line 138.
+Package pdftex.def Info: ./img/exp2.png used on input line 146.
 (pdftex.def)             Requested size: 283.43321pt x 123.83734pt.
+
+Underfull \vbox (badness 5817) has occurred while \output is active []
+
+ [58 <./img/trompo1.jpg>] [59 <./img/agua.jpg> <./img/agua3.png> <./img/agua2.jpg>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ¨ in font cmr12!
 Missing character: There is no Å in font cmr12!
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ± in font cmr12!
- [59 <./img/exp2.png>]
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ± in font cmr12!
-
-<./img/likert.jpg, id=669, 572.1375pt x 113.67468pt>
+ <./img/likert.jpg, id=742, 572.1375pt x 113.67468pt>
 File: ./img/likert.jpg Graphic file (type jpg)
  <use ./img/likert.jpg>
-Package pdftex.def Info: ./img/likert.jpg used on input line 211.
-(pdftex.def)             Requested size: 142.26378pt x 28.26595pt.
-File: ./img/likert.jpg Graphic file (type jpg)
- <use ./img/likert.jpg>
-Package pdftex.def Info: ./img/likert.jpg used on input line 213.
+Package pdftex.def Info: ./img/likert.jpg used on input line 221.
 (pdftex.def)             Requested size: 142.26378pt x 28.26595pt.
 File: ./img/likert.jpg Graphic file (type jpg)
 
 <use ./img/likert.jpg>
-Package pdftex.def Info: ./img/likert.jpg used on input line 215.
+Package pdftex.def Info: ./img/likert.jpg used on input line 223.
 (pdftex.def)             Requested size: 142.26378pt x 28.26595pt.
 File: ./img/likert.jpg Graphic file (type jpg)
  <use ./img/likert.jpg>
-Package pdftex.def Info: ./img/likert.jpg used on input line 217.
+Package pdftex.def Info: ./img/likert.jpg used on input line 225.
 (pdftex.def)             Requested size: 142.26378pt x 28.26595pt.
+File: ./img/likert.jpg Graphic file (type jpg)
+ <use ./img/likert.jpg>
+Package pdftex.def Info: ./img/likert.jpg used on input line 227.
+(pdftex.def)             Requested size: 142.26378pt x 28.26595pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60 <./img/exp2.png>] [61]
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ¨ in font cmr12!
 Missing character: There is no Å in font cmr12!
@@ -1231,107 +1201,281 @@ Missing character: There is no Å in font cmr12!
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ¨ in font cmr12!
 Missing character: There is no Å in font cmr12!
- [60] [61 <./img/likert.jpg>]
+ [62 <./img/likert.jpg>]
 Underfull \vbox (badness 2772) has occurred while \output is active []
 
- [62]
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ± in font cmr12!
- <./img/tec1.jpg, id=684, 4336.2pt x 2441.12pt>
+ [63] <./img/tec1.jpg, id=761, 4336.2pt x 2441.12pt>
 File: ./img/tec1.jpg Graphic file (type jpg)
 
 <use ./img/tec1.jpg>
-Package pdftex.def Info: ./img/tec1.jpg used on input line 263.
+Package pdftex.def Info: ./img/tec1.jpg used on input line 276.
 (pdftex.def)             Requested size: 346.90309pt x 195.2936pt.
+ <./img/lego.jpg, id=762, 602.25pt x 451.6875pt>
+File: ./img/lego.jpg Graphic file (type jpg)
+ <use ./img/lego.jpg>
+Package pdftex.def Info: ./img/lego.jpg used on input line 290.
+(pdftex.def)             Requested size: 113.81102pt x 85.35284pt.
 
+<./img/lol.jpg, id=763, 1027.84pt x 1027.84pt>
+File: ./img/lol.jpg Graphic file (type jpg)
+ <use ./img/lol.jpg>
+Package pdftex.def Info: ./img/lol.jpg used on input line 291.
+(pdftex.def)             Requested size: 113.81102pt x 113.79987pt.
+ [64]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ± in font cmr12!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [64 <./img/tec1.jpg>]) [65] [66]
+ [65 <./img/tec1.jpg> <./img/lego.jpg> <./img/lol.jpg>]) [66] [67]
 \openout2 = `enveva.aux'.
 
  (enveva.tex
 Chapter 6.
-) [67
+
+Underfull \hbox (badness 1024) in paragraph at lines 21--21
+[]|\OT1/cmr/m/n/10.95 From 1-10, how was your sat-is-fac-tion
+ []
+
+
+Underfull \vbox (badness 1931) has occurred while \output is active []
+
+ [68
 
 
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [69]
+Underfull \vbox (badness 1231) has occurred while \output is active []
+
+ [70] [71] [72]
+Overfull \hbox (6.37437pt too wide) in paragraph at lines 131--131
+[]|\OT1/cmr/m/n/10.95 Engage| 
+ []
+
+
+Overfull \hbox (2.87646pt too wide) in paragraph at lines 131--131
+[]|\OT1/cmr/m/n/10.95 Happy| 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73
+
+
+] [74]
+<./img/fuzzyengs.png, id=817, 472.01344pt x 380.17032pt>
+File: ./img/fuzzyengs.png Graphic file (type png)
+ <use ./img/fuzzyengs.png>
+Package pdftex.def Info: ./img/fuzzyengs.png used on input line 190.
+(pdftex.def)             Requested size: 236.00613pt x 190.08469pt.
+
+<./img/fuzzyeng.png, id=819, 735.49782pt x 335.75438pt>
+File: ./img/fuzzyeng.png Graphic file (type png)
+ <use ./img/fuzzyeng.png>
+Package pdftex.def Info: ./img/fuzzyeng.png used on input line 201.
+(pdftex.def)             Requested size: 367.74802pt x 167.87677pt.
+
+Underfull \hbox (badness 7832) in paragraph at lines 225--226
+[]|\OT1/cmr/m/n/10.95 kappa: 0.803 +/- 0.088
+ []
+
+
+Underfull \hbox (badness 7832) in paragraph at lines 247--248
+[]|\OT1/cmr/m/n/10.95 kappa: 0.792 +/- 0.069
+ []
+
+
+Underfull \hbox (badness 7832) in paragraph at lines 269--270
+[]|\OT1/cmr/m/n/10.95 kappa: 0.712 +/- 0.079
+ []
+
+
+Overfull \hbox (15.98607pt too wide) in paragraph at lines 372--373
+[]|\OT1/cmr/m/n/10.95 Accuracy| 
+ []
+
+
+Overfull \hbox (5.61397pt too wide) in paragraph at lines 374--375
+[]|\OT1/cmr/m/n/10.95 88.42%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
+\OT1/cmr/m/n/10.95 +/-
+ []
+
+
+Overfull \hbox (5.61397pt too wide) in paragraph at lines 375--376
+[]|\OT1/cmr/m/n/10.95 87.77%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+\OT1/cmr/m/n/10.95 +/-
+ []
+
+
+Overfull \hbox (5.61397pt too wide) in paragraph at lines 376--377
+[]|\OT1/cmr/m/n/10.95 83.69%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+\OT1/cmr/m/n/10.95 +/-
+ []
+
+
+Overfull \hbox (5.61397pt too wide) in paragraph at lines 377--378
+[]|\OT1/cmr/m/n/10.95 91.03%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
+\OT1/cmr/m/n/10.95 +/-
+ []
+
+
+Overfull \hbox (5.61397pt too wide) in paragraph at lines 378--379
+[]|\OT1/cmr/m/n/10.95 89.83%| 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75] [76] [77] [78 <./img/fuzzyengs.png> <./img/fuzzyeng.png>] [79]
+Overfull \hbox (7.46074pt too wide) in paragraph at lines 394--394
+[]|\OT1/cmr/m/n/10.95 User| 
+ []
+
+
+Overfull \hbox (4.32782pt too wide) in paragraph at lines 394--395
+[]|\OT1/cmr/m/n/10.95 Age| 
+ []
+
+
+Overfull \hbox (2.19865pt too wide) in paragraph at lines 406--406
+[]|\OT1/cmr/m/n/10.95 a10| 
+ []
+
+
+Overfull \hbox (2.19865pt too wide) in paragraph at lines 408--408
+[]|\OT1/cmr/m/n/10.95 a35| 
+ []
+
+
+Overfull \hbox (2.19865pt too wide) in paragraph at lines 409--409
+[]|\OT1/cmr/m/n/10.95 a36| 
+ []
+
+
+Overfull \hbox (2.19865pt too wide) in paragraph at lines 410--410
+[]|\OT1/cmr/m/n/10.95 a37| 
+ []
+
+
+Overfull \hbox (2.19865pt too wide) in paragraph at lines 411--411
+[]|\OT1/cmr/m/n/10.95 a38| 
+ []
+
+
+Overfull \hbox (2.19865pt too wide) in paragraph at lines 412--412
+[]|\OT1/cmr/m/n/10.95 a39| 
+ []
+
+
+Overfull \hbox (2.19865pt too wide) in paragraph at lines 413--413
+[]|\OT1/cmr/m/n/10.95 a40| 
+ []
+
+[80])
 \openout2 = `conclu.aux'.
 
  (conclu.tex
 Chapter 7.
-[68
+[81
 
 
 
-]) [69] (tesis.bbl
+
+
+]) [82]
+\openout2 = `appe1.aux'.
+
+ (appe1.tex
+Appendix A.
+[83
+
+
+
+]
+Overfull \hbox (6.27786pt too wide) in paragraph at lines 19--21
+[]\OT1/cmr/m/n/12 Kinect for Win-dows SDK Url:[][]$\OT1/cmtt/m/n/12 https : / / www . microsoft . com / en-[]us / downlo
+ad /
+ []
+
+) [84] (tesis.bbl
 Missing character: There is no í in font cmti12!
 
 Underfull \hbox (badness 1102) in paragraph at lines 26--34
 []\OT1/cmr/m/n/12 Andres Chi-appe Laverde, Yas-b-ley Segovia Ci-fuentes, and Helda Yadira
  []
 
-[70
+[85
 
 
 
 ]
 Missing character: There is no · in font cmr12!
 Missing character: There is no · in font cmr12!
- [71] [72]
+ [86] [87]
 Missing character: There is no ñ in font cmr12!
 Missing character: There is no í in font cmr12!
- [73] [74]
+ [88] [89]
 Missing character: There is no ¥ in font cmr12!
+ [90])
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+[91]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+ (tesis.aux (introduction.aux) (artstate.aux) (theoryandbg.aux) (proposmeth.aux) (expres.aux) (enveva.aux)
+(conclu.aux) (appe1.aux)
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
- [75]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
- (tesis.aux (introduction.aux) (artstate.aux) (theoryandbg.aux) (proposmeth.aux)
-(expres.aux) (enveva.aux) (conclu.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package rerunfilecheck Info: File `tesis.out' has not changed.
+(rerunfilecheck)             Checksum: 59682EE3E11C67671848EE8F27B9BC07;3629.
 
-
-Package rerunfilecheck Warning: File `tesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `tesis.out':
-(rerunfilecheck)             Before: EE6936891CDAF8C6EE278F8BAFA19ED3;3211
-(rerunfilecheck)             After:  6610D23AF62F0E475B3B0E308B0D1D0C;3211.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 11750 strings out of 493323
- 170691 string characters out of 3139067
- 306818 words of memory out of 3000000
- 14794 multiletter control sequences out of 15000+200000
- 14264 words of font info for 55 fonts, out of 3000000 for 9000
+ 11861 strings out of 493323
+ 172282 string characters out of 3139067
+ 326759 words of memory out of 3000000
+ 14848 multiletter control sequences out of 15000+200000
+ 14573 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,51p,2322b,482s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.27} has been referenced but does not exist, replaced by a fixed one
-
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmtt12.pfb>
-Output written on tesis.pdf (81 pages, 15999193 bytes).
+ 36i,15n,51p,2322b,493s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on tesis.pdf (98 pages, 17845039 bytes).
 PDF statistics:
- 840 PDF objects out of 1000 (max. 8388607)
- 189 named destinations out of 1000 (max. 500000)
- 496 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1016 PDF objects out of 1200 (max. 8388607)
+ 232 named destinations out of 1000 (max. 500000)
+ 574 words of extra memory for PDF output out of 10000 (max. 10000000)
 

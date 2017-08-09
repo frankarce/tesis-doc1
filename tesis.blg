@@ -7,7 +7,9 @@ A level-1 auxiliary file: proposmeth.aux
 A level-1 auxiliary file: expres.aux
 A level-1 auxiliary file: enveva.aux
 A level-1 auxiliary file: conclu.aux
+A level-1 auxiliary file: appe1.aux
 Database file #1: biblio.bib
 Warning--entry type for "ieee" isn't style-file defined
 --line 423 of file biblio.bib
-(There was 1 warning)
+Warning--can't use both author and editor fields in Valdez2007
+(There were 2 warnings)

@@ -11,16 +11,17 @@ In this particular experimental scenario, we propose some guidelines and follows
 stay fixed. For example, suppose that we wish to compare the acceptance and assimilation of the environment A and environment B, that both use
 different technologies. 
 
-\item • Generalization power: when drawing conclusions from experiments, we may desire that our conclusions generalize beyond the immediate context of the experiments. When choosing an environment for a real application, we may want our conclusions to hold on the deployed system. Generally speaking, the more diverse the data used, the more it can generalize the results.
+\item • Generalization power: when drawing conclusions from experiments, we may desire that our conclusions generalize beyond the immediate context of the experiments. When choosing an environment for a real application, we may want our conclusions to hold on the deployed system. 
 \end{itemize}
 
 The next sections show a comprehensive description of the experimental setup for experiments, as well as results obtained in the experiments. Each method was tested
 using different topics and context. This chapter ends with the description of the functionality of the prototype used to validate the method utilized in the experiments.
 
 \section{Adaptive Learning Environment topic 1}
-In earlier implementations of the adaptive environment several experiments were done to test the behavior and the performance. For the experiment the proposed hypothesis is The acceptance and accuracy of the content showed in the adaptive learning environment. The first experiment presents and adaptive learning environment used to teach the topic "El himno nacional Mexicano". llevado a cabo en las instalaciones del instituto tecnologico de tijuana. 
+In earlier implementations of the adaptive environment several experiments were done to test the behavior and the performance. For the experiment the proposed hypothesis is The acceptance and accuracy of the content showed in the adaptive learning environment. The first experiment presents and adaptive learning environment used to teach the topic "El himno nacional Mexicano". Held in the Technological Institute of Tijuana.
 \subsection{Devices}
-Los dispositivos usados en este experimento se describen a continuacion. Se necesito de un servidor para manejar las peticiones, almacenar los objetos de aprendizaje, generar la secuencia de aprendizaje y mantener el servicio web activo. En este caso el servidor era una computadora Gateway fx6850 el cual cuenta con 12gb de ram y procesador intel i7 de segunda generacion. se utilizaron 3 monitores de diferentes resoluciones el primero de 1440x900 pixeles, el segundo de 1600x900 y el tercero de 1980x1080 pixeles. Lo que genero un problema a la hora de desplegar imagenes o videos pero se tomaron medidas para adaptar el contenido a diferentes resoluciones. Una tablet nexus7 con la cual el usuario podia controlar la navegacion entre actividades y contestar algunos cuestionarios. y audifonos para el sonido.
+%Los dispositivos usados en este experimento se describen a continuacion. Se necesito de un servidor para manejar las peticiones, almacenar los objetos de aprendizaje, generar la secuencia de aprendizaje y mantener el servicio web activo. En este caso el servidor era una computadora Gateway fx6850 el cual cuenta con 12gb de ram y procesador intel i7 de segunda generacion. se utilizaron 3 monitores de diferentes resoluciones el primero de 1440x900 pixeles, el segundo de 1600x900 y el tercero de 1980x1080 pixeles. Lo que genero un problema a la hora de desplegar imagenes o videos pero se tomaron medidas para adaptar el contenido a diferentes resoluciones. Una tablet nexus7 con la cual el usuario podia controlar la navegacion entre actividades y contestar algunos cuestionarios. y audifonos para el sonido.
+The devices used in this experiment are described below. It takes a server to handle the requests, store the learning objects, generate the learning sequence and keep the web service active. In this case the server was a Gateway fx6850 computer which has 12gb ram and second generation intel i7 processor. Were used 3 monitors of different resolutions the first of 1440x900 pixels, the second of 1600x900 and the third of 1980x1080 pixels. This generated a problem when displaying images or videos but measures were taken to adapt the content to different resolutions. A tablet nexus7 with which the user could control the navigation between activities and answer some questionnaires. And headphones for sound.
 
 \begin{figure}[ht!]  
 \centering  
@@ -32,8 +33,11 @@ Los dispositivos usados en este experimento se describen a continuacion. Se nece
   
 
 \subsection{Topic/Content}
-Seleccionamos el tema de el himno nacional mexicano por la razon de que nos parecio un tema de interez general y por lo tanto digerible para diferentes edades y personas.
-se comenzo con una breve historia del himno nacional involucrando a sus autores tanto de musica como de letra y una breve sinopsis de cada uno de ellos en la figura \ref{Nuno2} podemos observar una imagen con los 2 personajes pero se muestran 2 imagenes de cada una de los autores, dependiendo del usuario se muestra una u otra imagen.
+%Seleccionamos el tema de el himno nacional mexicano por la razon de que nos parecio un tema de interez general y por lo tanto digerible para diferentes edades y personas.
+We selected the theme of the Mexican national anthem for the reason that it seemed to us a subject of general interest and therefore digestible for different ages and people.
+%Se comenzo con una breve historia del himno nacional involucrando a sus autores tanto de musica como de letra y una breve sinopsis de cada uno de ellos en la figura \ref{Nuno2} podemos observar una imagen con los 2 personajes pero se muestran 2 imagenes de cada una de los autores, dependiendo del usuario se muestra una u otra imagen.
+It began with a brief history of the national anthem involving its authors both music and lyrics and a brief synopsis of each of them in the figure \ref{Nuno2} we can observe an image with the 2 characters but we show 2 images of each of the authors, depending on the user profile is shown one or another image.
+
 \begin{figure}[ht!]  
 \centering  
 \includegraphics[scale=.25]{Jaime_Nuno2}
@@ -42,10 +46,11 @@ se comenzo con una breve historia del himno nacional involucrando a sus autores 
 \label{Nuno2}  
 \end{figure}
 
-Como lo mencionamos se manejan 3 tipos de usuarios tomando como referencia su edad. basado en el rando de edad un sistema difuso elige que contenido mostrar al usuario. en la imagen anterior \ref{Nuno2} se muestran las imagenes de los autores del himno nacional pero para el tipo de usuario 2 y 3. dependiendo del tipo de usuario cada una de las actividades puede cambiar y hacerce un poco mas digerible, por ejemplo para el usuario 3 que se supone un usuario mas metodico y que tiene en su mayoria tiene mejor aceptacion de informacion compleja se le muestra mas texto, graficas y tablas que quiza son mas dificiles de entender para los usuarios 1 y quiza al usuario 2. entonces es la misma actividad de aprendizaje pero con pequeños cambios con respecto a los diferentes usuarios. 
-
+%Como lo mencionamos se manejan 3 tipos de usuarios tomando como referencia su edad. basado en el rando de edad un sistema difuso elige que contenido mostrar al usuario. en la imagen anterior \ref{Nuno2} se muestran las imagenes de los autores del himno nacional pero para el tipo de usuario 2 y 3. dependiendo del tipo de usuario cada una de las actividades puede cambiar y hacerce un poco mas digerible, por ejemplo para el usuario 3 que se supone un usuario mas metodico y que tiene en su mayoria tiene mejor aceptacion de informacion compleja se le muestra mas texto, graficas y tablas que quiza son mas dificiles de entender para los usuarios 1 y quiza al usuario 2. entonces es la misma actividad de aprendizaje pero con pequeños cambios con respecto a los diferentes usuarios. 
+As mentioned above, 3 types of users are managed based on their age. Based on the old rando a fuzzy system chooses which content to display to the user. In the previous image \ref{Nuno2} The images of the authors of the national anthem are shown but for the type of user 2 and 3. depending on the type of user each one of the activities can change and become a little more digestible, for example for the user 3 that assumes a user More methodical and that has in the majority has better acceptance of complex information is shown more text, graphs and tables that maybe are harder to understand for users 1 and perhaps user 2. then it is the same learning activity but with small changes with respect to different users.
 \subsection{Users}
-Los usuarios para este experimento fue una muestra de compañeros de laboratorio, maestros, amigos e hijos de compañeros un grupo de usuarios 10 de diferentes perfiles (tabla 1) con el prototipo del ambiente para ver la impresión que tuvieron realizar una actividad de aprendizaje y obtener retroalimentación de ellos. Este ambiente está planeado para usarse en aéreas grandes pero en este caso se uso un espacio pequeño para la prueba. Para este caso solo se tomaron la edad y el nivel académico el cual va desde 1 hasta 21 donde 1 es primer año de primaria y 21 tiene grado de doctor como lo podemos observar en la tabla \ref{tab:users1}.
+%Los usuarios para este experimento fue una muestra de compañeros de laboratorio, maestros, amigos e hijos de compañeros un grupo de usuarios 10 de diferentes perfiles con el prototipo del ambiente para ver la impresión que tuvieron realizar una actividad de aprendizaje y obtener retroalimentación de ellos. Este ambiente está planeado para usarse en aéreas grandes pero en este caso se uso un espacio pequeño para la prueba. Para este caso solo se tomaron la edad y el nivel académico el cual va desde 1 hasta 21 donde 1 es primer año de primaria y 21 tiene grado de doctor como lo podemos observar en la tabla 
+The users for this experiment was a sample of laboratory colleagues, teachers, friends and children of co-workers, a group of users 10 with different profiles the prototype of the environment was used to determine the impression they had to perform a learning activity and obtain Feedback from them. This environment is intended for use in large areas but in this case a small space is used for testing. For this case only the age and academic level were taken, which ranges from 1 to 21 where 1 is the first year of primary school and 21 has a doctor's degree as we can see in the table \ref{tab:users1}.
 
 \begin{table}
 \centering
@@ -76,7 +81,9 @@ User & Age	& Academic level\\
 
 \subsection{Survey}
 
-Cuando los usuarios terminaron de utilizar el ambiente se les realizo una pequeña encuesta, esta encuesta consistía en 5 preguntas sobre su experiencia al utilizar el ambiente preguntas como si se le dificulto utilizarlo o si fue de su agrado los recursos mostrados, con el objetivo de obtener retroalimentación de los usuarios para hacer futuras mejoras y modificaciones que se muestra en la tabla \ref{users2}.
+%Cuando los usuarios terminaron de utilizar el ambiente se les realizo una pequeña encuesta, esta encuesta consistía en 5 preguntas sobre su experiencia al utilizar el ambiente preguntas como si se le dificulto utilizarlo o si fue de su agrado los recursos mostrados, con el objetivo de obtener retroalimentación de los usuarios para hacer futuras mejoras y modificaciones que se muestra en la tabla \ref{users2}.
+When users finished using the environment they were given a small survey, this survey consisted of 5 questions about their experience using the environment questions as if they were difficult to use or if they liked the resources shown, in order to obtain Feedback from users to make future improvements and modifications shown in the table \ref{users2}.
+
 \begin{table}
 \small
 \centering
@@ -104,25 +111,26 @@ For this part of the study users immersed in an exhibitor that gave them visual 
 
 \begin{figure}[htbp]
 \centering
-\subfigure[User interacting with the environment.]{\includegraphics[width=40mm]{agua}}\hspace{10mm}
-\subfigure[Front view of the equipt.]{\includegraphics[width=40mm]{agua3}}{10mm}
+\subfigure[User interacting with the environment.]{\includegraphics[width=40mm]{casodeestudio}}\hspace{10mm}
+\subfigure[Front view of the equipt.]{\includegraphics[width=40mm]{casodeestudio2-1}}
 \caption{The environment.} \label{fig:environment}
 \end{figure}
 
 \subsection{Devices}
-Los dispositivos usados en este experimento se describen a continuacion. Se necesito de un servidor para manejar las peticiones, almacenar los objetos de aprendizaje, generar la secuencia de aprendizaje y mantener el servicio web activo. En este caso el servidor era una computadora Mac Pro 2014 la cual cuenta con 12gb de ram y procesador intel xeon. se utilizaron 3 proyectores de las mismas resoluciones a diferentes tamaños organizados como se puede observar en la figura \ref{trompo1}. una computadora adicional que realizo diversas tareas como mostrar el contenido de 2 proyectores y reproducir el audio,  una laptop para mostrar contenido en el tercer proyector y una laptop mas donde para obtener los datos del sensor kinect. 
-
+%Los dispositivos usados en este experimento se describen a continuacion. Se necesito de un servidor para manejar las peticiones, almacenar los objetos de aprendizaje, generar la secuencia de aprendizaje y mantener el servicio web activo. En este caso el servidor era una computadora Mac Pro 2014 la cual cuenta con 12gb de ram y procesador intel xeon. se utilizaron 3 proyectores de las mismas resoluciones a diferentes tamaños organizados como se puede observar en la figura \ref{trompo1}. una computadora adicional que realizo diversas tareas como mostrar el contenido de 2 proyectores y reproducir el audio,  una laptop para mostrar contenido en el tercer proyector y una laptop mas donde para obtener los datos del sensor kinect. 
+The devices used in this experiment are described below. It takes a server to handle the requests, store the learning objects, generate the learning sequence and keep the web service active. In this case the server was a Mac Pro 2014 computer which has 12gb ram and intel xeon processor. 3 projectors of the same resolutions were used at different sizes organized as can be seen in the figure \ref{trompo1}. An additional computer that performed various tasks such as displaying the contents of 2 projectors and playing the audio, a laptop to display content on the third projector and a laptop to get the data from the kinect sensor.
 \begin{figure}[ht!]  
 \centering  
 \includegraphics[scale=.08]{trompo1}
 \caption{Front view of the environment.}  
 \label{trompo1}  
 \end{figure}
-Una tablet nexus7 con la cual el usuario podia controlar la navegacion entre actividades y contestar algunos cuestionarios. y audifonos para el sonido. ademas del sensor kinekt 2 para sensar al usuario.
-
+%Una tablet nexus7 con la cual el usuario podia controlar la navegacion entre actividades y contestar algunos cuestionarios. y audifonos para el sonido. ademas del sensor kinekt 2 para sensar al usuario.
+A tablet nexus7 with which the user could control the navigation between activities and answer some questionnaires. And headphones for sound. In addition to the kinekt 2 sensor to sensing data from the user.
 
 \subsection{Topic/Content}
-Para este experimento la eleccion del tema fue influenciada por el lugar y la fecha donde se llevaria a cabo el lugar fue el museo interactivo el trompo de tijuana a pocos dias del el dia festivo "El dia del Niño" por lo que optamos por elegir un tema digerible y que haga conciencia en los usuarios. El tema elegido fue "el Cuidado del agua" donde se recabaron al rededor de 23 diferentes imagenes, 8 audios, 1 video en la figura \ref{fig:agua}. 
+%Para este experimento la eleccion del tema fue influenciada por el lugar y la fecha donde se llevaria a cabo el lugar fue el museo interactivo el trompo de tijuana a pocos dias del el dia festivo "El dia del Niño" por lo que optamos por elegir un tema digerible y que haga conciencia en los usuarios. El tema elegido fue "el Cuidado del agua" donde se recabaron al rededor de 23 diferentes imagenes, 8 audios, 1 video en la figura \ref{fig:agua}. 
+For this experiment the choice of the theme was influenced by the place and date where it would take place, the place was the interactive museum the trompe de tijuana a few days from the holiday "El dia del Niño" so we decided to choose a subject that is digestible and that makes people aware. The chosen theme was "Water Care" where they were collected around 23 different images, 8 audios, 1 video in the figure \ref{fig:agua}.
 \begin{figure}[htbp]
 \centering
 \subfigure[water percent of the body]{\includegraphics[width=40mm]{agua}}\hspace{10mm}
@@ -131,8 +139,8 @@ Para este experimento la eleccion del tema fue influenciada por el lugar y la fe
 \caption{imagenes usadas en la secuencia de aprendizaje.} \label{fig:agua}
 \end{figure}
 
-La informacion mostrada por la actividad fue desde el ciclo del agua, su importacia para nuestra salud, la energia producida por la misma, ademas de el cuidado que hay que tener con ella y como evitar la contaminacion. La actividad se podia completar entre 8 y 10 minutos dependiendo de los recursos mostrados a los diferentes usuarios como lo podemos ver en la figura \ref{exp2}.
-
+%La informacion mostrada por la actividad fue desde el ciclo del agua, su importacia para nuestra salud, la energia producida por la misma, ademas de el cuidado que hay que tener con ella y como evitar la contaminacion. La actividad se podia completar entre 8 y 10 minutos dependiendo de los recursos mostrados a los diferentes usuarios como lo podemos ver en la figura \ref{exp2}.
+The information shown by the activity was from the water cycle, its importance for our health, the energy produced by it, besides the care that must be taken with it and how to avoid contamination. The activity could be completed between 8 and 10 minutes depending on the resources shown to the different users as we can see in the figure \ref{exp2}.
 \begin{figure}[ht!]  
 \centering  
 \includegraphics[scale=.5]{exp2}
@@ -141,7 +149,8 @@ La informacion mostrada por la actividad fue desde el ciclo del agua, su importa
 \end{figure}
 
 \subsection{Users}
-This experiment was conducted with visitors of the museum’s "El trompo" where 21 users divided into 2 groups participated, the ﬁrst has 10 users between 6 and 11 years 50\% men and 50\% women and the second group consisted of 11 users over 11 years old  66\% men 44\% women en la tabla \ref{tab:users21} y en la tabla \ref{tab:users22} se pueden observar algunos datos adicionales de los 2 grupos de usuarios, nota adicional algunos usuarios no quisieron revelar su edad o nombre por lo que se les respeto su desicion y se les dejo con el signo de ? y la minoria hablaba otro idioma lo que puso a prueba el contenido ya que este estaba totalmente en español aunque los usuarios aun asi participaron.
+%This experiment was conducted with visitors of the museum’s "El trompo" where 21 users divided into 2 groups participated, the ﬁrst has 10 users between 6 and 11 years 50\% men and 50\% women and the second group consisted of 11 users over 11 years old  66\% men 44\% women en la tabla \ref{tab:users21} y en la tabla \ref{tab:users22} se pueden observar algunos datos adicionales de los 2 grupos de usuarios, nota adicional algunos usuarios no quisieron revelar su edad o nombre por lo que se les respeto su desicion y se les dejo con el signo de ? y la minoria hablaba otro idioma lo que puso a prueba el contenido ya que este estaba totalmente en español aunque los usuarios aun asi participaron.
+his experiment was conducted with visitors of the museum’s "El trompo" where 21 users divided into 2 groups participated, the ﬁrst has 10 users between 6 and 11 years 50\% men and 50\% women and the second group consisted of 11 users over 11 years old  66\% men 44\% women in the table \ref{tab:users21} and in table \ref{tab:users22} you can see some additional data of the 2 groups of users, additional note some users did not want to reveal their age or name, we respect their decision And they were left with the sign of? And the minority spoke another language which tested the content since it was totally in Spanish although the users still participated.
 \begin{table}
 \small
 \centering
@@ -194,7 +203,8 @@ User & Name	& Age\\
 \end{tabular}
 \end{table}
 \subsection{Survey}
-Cuando los usuarios terminaron de utilizar el ambiente se les realizo una pequeña encuesta, dependiendo del usuario se le aplico una u otra encuesta que podemos observar en la tabla \ref{tab:users1} y la tabla \ref{tab:users2} respectivamente.
+%Cuando los usuarios terminaron de utilizar el ambiente se les realizo una pequeña encuesta, dependiendo del usuario se le aplico una u otra encuesta que podemos observar en la tabla \ref{tab:users1} y la tabla \ref{tab:users2} respectivamente.
+When the users finished using the environment they were given a small survey, depending on the user, we applied one or another survey that we can observe in the table \ref{tab:users1} and the table \ref{tab:users2} respectively.
 \begin{table}
 \small
 \centering
@@ -254,10 +264,13 @@ Question \\
 \end{table}
 
 \section{Adaptive Learning Environment topic 3}
-Este experimento se llevo acabo en las instalaciones del tecnologico de tijuana ajustando nuestro prototipo con la retroalimentacion del segundo experimento. Para poder atender mas usuarios en esta ocacion las actividades fueron las mismas para todos esto permitio una mejor lectura de datos a los usuarios y minimizo el tiempo de uso de cada usuario en la actividad.This study was very similar to the last one that had some small modiﬁcations and additions, now the user no longer had control ﬂow only observe and also to observe the user now will take video and sensor, the theme of the exhibition were video games and ﬁlm as the age of the users would go for almost 17 years and older could be topics of their interest. In the same way as in the ﬁrst part each user had an account to record the activity only this occasion the data produced by the sensor and videos captured by the camera would be recorded, and in the same way as in the ﬁrst part at the end we surveyed the users.
+%Este experimento se llevo acabo en las instalaciones del tecnologico de tijuana ajustando nuestro prototipo con la retroalimentacion del segundo experimento. Para poder atender mas usuarios en esta ocacion las actividades fueron las mismas para todos esto permitio una mejor lectura de datos a los usuarios y minimizo el tiempo de uso de cada usuario en la actividad.This study was very similar to the last one that had some small modiﬁcations and additions, now the user no longer had control ﬂow only observe and also to observe the user now will take video and sensor, the theme of the exhibition were video games and ﬁlm as the age of the users would go for almost 17 years and older could be topics of their interest. In the same way as in the ﬁrst part each user had an account to record the activity only this occasion the data produced by the sensor and videos captured by the camera would be recorded, and in the same way as in the ﬁrst part at the end we surveyed the users.
+This experiment was carried out in the technological facilities of tijuana, adjusting our prototype with the feedback of the second experiment. To be able to attend more users in this occasion the activities were the same for all this allowed a better reading of data to the users and minimized the time of use of each user in the activity.
+This study was very similar to the last one that had some small modiﬁcations and additions, now the user no longer had control ﬂow only observe and also to observe the user now will take video and sensor, the theme of the exhibition were video games and ﬁlm as the age of the users would go for almost 17 years and older could be topics of their interest. In the same way as in the ﬁrst part each user had an account to record the activity only this occasion the data produced by the sensor and videos captured by the camera would be recorded, and in the same way as in the ﬁrst part at the end we surveyed the users.
 For the ﬁrst part of the study we get data from the survey conducted at the end, in the second they are collected and used data from sensors, this data were a bit more complex, ﬁrst we need an observer to evaluate the user manually, where the observer determined whether the user was putting attention to what he saw or distracted and based on that assigned a level of attention on a scale of 1 to 3 where 1 is little attention 2 average attention and 3 very attentive. 
 \subsection{Devices}
-Los dispositivos usados en este experimento se describen a continuacion. Se necesito de un servidor para manejar las peticiones, almacenar los objetos de aprendizaje, generar la secuencia de aprendizaje y mantener el servicio web activo. En este caso el servidor era una computadora Mac Pro 2014 la cual cuenta con 12gb de ram y procesador intel xeon. se utilizaron 3 proyectores de las mismas resoluciones a diferentes tamaños organizados como se puede observar en la figura \ref{ambiente4}. una computadora adicional que realizo diversas tareas como mostrar el contenido de 2 proyectores y reproducir el audio,  una laptop para mostrar contenido en el tercer proyector y una laptop mas donde para obtener los datos del sensor kinect.
+%Los dispositivos usados en este experimento se describen a continuacion. Se necesito de un servidor para manejar las peticiones, almacenar los objetos de aprendizaje, generar la secuencia de aprendizaje y mantener el servicio web activo. En este caso el servidor era una computadora Mac Pro 2014 la cual cuenta con 12gb de ram y procesador intel xeon. se utilizaron 3 proyectores de las mismas resoluciones a diferentes tamaños organizados como se puede observar en la figura \ref{ambiente4}. una computadora adicional que realizo diversas tareas como mostrar el contenido de 2 proyectores y reproducir el audio,  una laptop para mostrar contenido en el tercer proyector y una laptop mas donde para obtener los datos del sensor kinect.
+The devices used in this experiment are described below. It takes a server to handle the requests, store the learning objects, generate the learning sequence and keep the web service active. In this case the server was a Mac Pro 2014 computer which has 12gb ram and intel xeon processor. 2 projectors of the same resolutions were used at different sizes organized as can be seen in the figure \ref{ambiente4}. An additional computer that performed various tasks such as displaying the contents of 2 projectors and playing the audio and a laptop to get the data from the kinect sensor.
 \begin{figure}[ht!]  
 \centering  
 \includegraphics[scale=0.08]{tec1}
@@ -267,12 +280,27 @@ Los dispositivos usados en este experimento se describen a continuacion. Se nece
 \end{figure}
 
 \subsection{Topic/Content}
-PAra elegir el tema a mostrar en el ambiente decidimos optar por temas de interez para poblacion de usuarios que fueron video juegos y el cine. el video sobre los video juegos fue sobre el video juego league of legends y el video de cine fue una explicacion de la trilogia de starwars en 2 minutos con legos.
+%PAra elegir el tema a mostrar en el ambiente decidimos optar por temas de interez para poblacion de usuarios que fueron video juegos y el cine. el video sobre los video juegos fue sobre el video juego league of legends y el video de cine fue una explicacion de la trilogia de starwars en 2 minutos con legos como los podemos observar en la figura \ref{fig:legolol}.
+%La razon para elegir esos temas fue la poblacion de usuarios que usarian el ambiente en este experimento la gran mayoria de las mismas edades.
+%el primer video mostraba una historia y el segundo era un video tutorial.
+To choose the theme to show in the environment we decided to opt for subjects of interest to the population of users who were video games and the cinema. The video about the video games was about the video game league of legends and the movie video was an explanation of the trilogy of starwars in 2 minutes with legos as we can see in the figure \ ref {fig: legolol}.
+The reason for choosing these topics was the population of users who would use the environment in this experiment the vast majority of the same ages. The first video showed a story and the second was a video tutorial.
+\begin{figure}[htbp]
+\centering
+\subfigure[StarWars Lego.]{\includegraphics[width=40mm]{lego}}\hspace{10mm}
+\subfigure[League of Legends.]{\includegraphics[width=40mm]{lol}}
+\caption{The environment.} \label{fig:legolol}
+\end{figure}
+
+ 
 \subsection{Users}
 Participaron un total de 41 users of the Technological Institute of Tijuana were used aged between 18 and 50 years 66 \% men 34 \% women. 
 \subsection{Survey}
 
- Cuando los usuarios terminaron de utilizar el ambiente se les realizo una pequeña encuesta que se muestra a continuacion.
+%Cuando los usuarios terminaron de utilizar el ambiente se les realizo una encuesta para conocer los gustos de los usuarios y empatar los resultados de la encuesta con los resultados del experimento los cuales observaremos mas detalladamente mas adelante.
+%A continuacion se muestra la tabla con las preguntas de la encuesta.
+When the users finished using the environment they were surveyed to know the tastes of the users and tie the results of the survey with the results of the experiment, which we will observe in more detail later.
+Below is the table with survey questions.
 
 \begin{table}
 \small

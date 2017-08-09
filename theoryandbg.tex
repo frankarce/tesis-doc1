@@ -61,10 +61,10 @@ Typically the modern relational data bases have shown little efficiency in certa
 \subsection{Advantages of NoSQL systems}
 
 This way of storing information provides certain advantages over relational models. Between the most significant advantages can include:
-ï	They are executed in machines with limited resources: These systems, unlike based systems SQL, not just require computer, so they can be mounted on machines of a lower cost.
-ï	Horizontal Scalability: To improve the performance of these systems is achieved simply adding more nodes, with the only operation of the system indicate which nodes are available.
-ï	Can handle large amounts of data: This is because it uses a distributed structure, Hash many cases using tables.
-ï	Do not generate bottlenecks: The main problem with SQL systems is that they need to transcribe each sentence to be executed, and each complex sentence also requires a level even more complex implementation, which is an entry point in common, that before many requests can slow down the system.
+They are executed in machines with limited resources: These systems, unlike based systems SQL, not just require computer, so they can be mounted on machines of a lower cost.
+Horizontal Scalability: To improve the performance of these systems is achieved simply adding more nodes, with the only operation of the system indicate which nodes are available.
+Can handle large amounts of data: This is because it uses a distributed structure, Hash many cases using tables.
+Do not generate bottlenecks: The main problem with SQL systems is that they need to transcribe each sentence to be executed, and each complex sentence also requires a level even more complex implementation, which is an entry point in common, that before many requests can slow down the system.
 
 \subsection{Main differences with SQL databases}
 
@@ -104,7 +104,7 @@ Graph databases: In this type of databases, information is represented as nodes 
 
 Here are some examples of the most commonly used nosql databases.
 
-ï	Cassandra: This is a database created by Apache key-value type. It has its own language for CQL (Cassandra Query Language) queries. Cassandra is a Java application so it can run on any platform that has the Java Virtual Machine.
+Cassandra: This is a database created by Apache key-value type. It has its own language for CQL (Cassandra Query Language) queries. Cassandra is a Java application so it can run on any platform that has the Java Virtual Machine.
  
 \begin{figure}[ht!]  
 \centering  
@@ -115,7 +115,7 @@ Here are some examples of the most commonly used nosql databases.
 \end{figure}
 
 
-ï	MongoDB: This is a database created by 10gen document-oriented type, Free scheme is meaning that each input can have a different data schema that has nothing to do with the rest stored records. It's pretty quick to run its operations as it is written in C ++ language. For information storage, uses a proprietary system known document with the BSON name, which is an evolution of the popular JSON but with the peculiarity that can store binary data. Soon, MongoDB has become one of the bases of popular NoSQL data by developers.
+MongoDB: This is a database created by 10gen document-oriented type, Free scheme is meaning that each input can have a different data schema that has nothing to do with the rest stored records. It's pretty quick to run its operations as it is written in C ++ language. For information storage, uses a proprietary system known document with the BSON name, which is an evolution of the popular JSON but with the peculiarity that can store binary data. Soon, MongoDB has become one of the bases of popular NoSQL data by developers.
  
 \begin{figure}[ht!]  
 \centering  
@@ -126,7 +126,7 @@ Here are some examples of the most commonly used nosql databases.
 \end{figure}
 
 
-ï	CouchDB: It is a system created by Apache and written in Erlang language that works in most POSIX systems, including GNU / Linux and OSX, but not in Windows systems. The most important features include the use of Restfull HTTP API as an interface and JavaScript as the main language of interaction. For storage of data files used JSON.Allows creation of views, which are the mechanism that allows the combination of documents return values of several documents, ie, CouchDB allows performing operations JOIN Typical SQL.
+CouchDB: It is a system created by Apache and written in Erlang language that works in most POSIX systems, including GNU / Linux and OSX, but not in Windows systems. The most important features include the use of Restfull HTTP API as an interface and JavaScript as the main language of interaction. For storage of data files used JSON.Allows creation of views, which are the mechanism that allows the combination of documents return values of several documents, ie, CouchDB allows performing operations JOIN Typical SQL.
 
 \begin{figure}[ht!]  
 \centering  
@@ -136,17 +136,3 @@ Here are some examples of the most commonly used nosql databases.
 \label{bdg}  
 \end{figure}
 
-\section{Engagement}
-The other way to obtain user information was by Kinect Sensor and is a bit more complex because the sensor provides enough information the sensor detects a user can give: 
-‚Ä¢ engage 
-‚Ä¢ looking away 
-‚Ä¢ happy 
-‚Ä¢ left eye closed 
-‚Ä¢ right eye closed
-‚Ä¢ mouth open 
-‚Ä¢ mouth moved 
-‚Ä¢ wearing glasses 
-‚Ä¢ yaw pitch and roll of the face
-Each of these data the sensor assigned one of the following Yes, No, Maybe and Unknown values; unknown data were discarded since in the sensor documentation was saying that this data could be‚Äùnot sensing‚Äù and therefore not considered valid data. Only in the face position was a numerical data, the sensor generated an average of 14 records per second of these values sometimes less for a short time when the sensor lost sight of the user but was usually between 1 to 10 seconds.
-Full activity was carried out in 4 minutes 10 seconds so if the sensor not loses sight of the user throughout the activity it generates about 3500 records. From the above list of data we decided to use only engage, looking away happy and others are captured but used as they are not relevant to what we are measuring. To get textual results perform a normalization by a count of each event every 10 seconds since the data generated by the sensor are textual normalized by assigning numbers to strings for example Yes = 2, Maybe = 1 and No = 0 then for every 10 seconds of activity the Yes, No and Maybe was counted.
-As the activity lasted 4:10 we decided to count the sensor event every 10 seconds, at the end we gained an average of 140 records for each period of 10 seconds. Here I was a problem, as the number of records varied by user we had to think about how to normalize this data, as records were recorded and distributed yes, maybe, no the solution was to take a percentage of each of the records obtained by which thus we could handle and sensor data.

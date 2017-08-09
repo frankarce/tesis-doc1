@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{24}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -211,6 +211,17 @@ Judy~C.R. Tseng, Hui-Chun Chu, Gwo-Jen Hwang, and Chin-Chung Tsai.
 Jose Mario~Garcia Valdez.
 \newblock \emph{Aprendizaje colaborativo basado en recursos adaptativos}.
 \newblock PhD thesis, Universidad Aut´onoma de Baja California, 2008.
+
+\bibitem[Valdez et~al.(2007)Valdez, Sandoval, Castillo, and Garza]{Valdez2007}
+Mario~Garc{\'i}a Valdez, Guillermo~Licea Sandoval, Oscar Castillo, and
+  Arnulfo~Alanis Garza.
+\newblock \emph{{A Fuzzy Approach for the Sequencing of Didactic Resources in
+  Educational Adaptive Hypermedia Systems}}, chapter Theoretical Advances and
+  Applications of Fuzzy Logic and Soft Computing, pages 885--892.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2007.
+\newblock ISBN 978-3-540-72434-6.
+\newblock \doi{10.1007/978-3-540-72434-6_90}.
+\newblock URL \url{http://dx.doi.org/10.1007/978-3-540-72434-6_90}.
 
 \bibitem[Wang et~al.(2012)Wang, Li, Feng, Jiang, and Liu]{WANG2012412}
 Yanqing Wang, Hang Li, Yuqiang Feng, Yu~Jiang, and Ying Liu.
