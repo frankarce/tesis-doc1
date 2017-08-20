@@ -42,6 +42,55 @@ Figure 2.1.Key-Value example.
 Learning object design raises issues of portability, and of the object's relation to a broader learning management system.
 Learning objects are the basic elements of current Learning Management Systems (LMS) and are the focus of standardization initiatives whose goal is defining open technical standards and their characteristic metadata [6]. The most important initiatives are the Advanced Distributed Learning Initiative (ADL-SCORM) [7], the Instructional Management System Project (IMS) [8], the Alliance of Remote Instructional Authoring Distribution Networks of Europe (ARIADNE) [9], and the IEEE Learning Technology Standards Committee [10]. The main objective of these open standards is to enable the interoperability of learning objects between different LMSs and Learning Objects Repositories (LORS). Basic metadata schema specifications for learning objects include: Learning Object Metadata (LOM). Based on the Dublin Core metadata [11] this specification defines a set of meta- data elements that can be used to describe learning resources. LOM Includes educational, relation, technical, and classification elements [7]. Content Aggregation Model (CAM). CAM defines a package for the aggregation, distribution, management, and deployment of learning objects. Defines an organization element which contains information about one particular, passive organization of the material, the organization for now is limited to a tree structure [8]. Learner Information (LI). A collection of information about a learner or a producer of learning content, the elements are based upon accessibilities; activities; affiliations; competencies; goals; identifications; interests; qualifications, certifications and licenses; relationship; security keys; and transcripts [8]. Sequence and Navigation (SN). SN defines a method for representing the intended behavior of an authored learning experience such that any Learning Technology system (LTS) can sequence discrete learning activities in a consistent way. Provides a rule based sequencing of behaviors [7]. These standards have been the basis for various research projects in eLearning [11] and also extensions to support adaptability have been proposed [13], [14], [15]. Certain limitations of these specification initiatives have been noticed mainly regarding their weak support for the instructional design of the educational resources and pedagogy [16]. 
 
+\section{Linda Spaces}
+
+Linda [David Gelernter, 1985 Generative communication in Linda ACM Transactions on Programming Languages and Systems
+Volume 7 , Issue 1 (January 1985), pp. 80-112] es un modelo que puede ser implementado para cualquier lenguaje que provea herramientas para crear y coordinar multiples procesos, algunas ejemplos de implementación son CppLINDA para C++, Simple C-Linda para C o PYLinda para Python. El concepto principal de LINDA es el de “Espacio de Tuplas” a través del cual los procesos se comunican. Este espacio de tuplas es una abstracción de un espacio de memoria compartida el cual se usa de manera asociativa.
+El espacio de tuplas es donde se almacena la información accesible para todos los procesos. Las tuplas son colecciones de campos de algún tipo soportado por el lenguaje para el que se esta implementando. Estos campos pueden ser de dos tipos, valores de un tipo soportado o variables para recibir la información obtenida del espacio de tuplas, a las variables se les añade ? delante.
+Habitualmente se definen tres operaciones sobre un espacio de
+tuplas:
+\begin{itemize}	
+\item write(t) (out)
+\begin{itemize}	
+\item t es una tupla; el proceso deposita la tupla y sigue (no bloqueante)
+\end{itemize}
+\item take(p) (in)
+\begin{itemize}
+\item p es un patrón; el proceso se bloquea hasta que el espacio de tuplas le
+asigna una que corresponda al patrón
+\item la tupla es quitada del espacio de tuplas
+\end{itemize}
+\item read(p) (rd)
+\begin{itemize}
+\item versión del “take” en que la tupla que le es asignada no se elimina del
+espacio de tuplas
+\item puede haber varios read simultáneos
+\end{itemize}
+\end{itemize}
+\begin{figure}[ht!]  
+\centering  
+\includegraphics[scale=1]{linda}
+\quad  
+\caption{E-Learning}  
+\label{keyvalue}  
+\end{figure}
+
+En el modelo básico las tuplas son bastante simples. Aqui se muestra una definicion general 
+Let A be a set of typed elements, called atoms, for which a mapping.
+ 
+\begin{equation}
+EQ_{A} : A \times A \to \{ 0, 1 \} 
+\end{equation}
+
+%is assumed to be defined. The set of tuples TA is defined as follows: 
+\begin{enumerate}	
+\item for any a \( \in \) A, [a] belongs to \( \tau_{A} \)
+%\item for any \[a\] \boldsymbol{\tau}_{A}, \[\[la\]\] belongs to \boldsymbol{\tau}_{A} 
+%\item if [el] and [e2] belong to \boldsymbol{\tau}_{A}, then [e1 e2] also belongs to \boldsymbol{\tau}_{A}  
+\end{enumerate}
+
+
+
 \section{NoSQL}
 
 In computing, NoSQL (sometimes called "not only SQL") is a broad class of systems management databases that differ from the classical model of relational database management system (RDBMS) in important aspects, the most prominent is that they are not using SQL as the primary query language. The stored data do not require fixed structures such as tables, typically do not support JOIN operations, not fully guarantee ACID (atomicity, consistency, isolation and durability), and usually scale well horizontally. The NoSQL systems are sometimes called "not only SQL" to underline the fact that they can also support query languages like SQL. The NoSQL databases Systems grew with major Internet companies like Google, Amazon, Twitter and Facebook. These had to face challenges with data processing than traditional RDBMS not solved. With the growth of the web in real time there was a need to provide processed information from large volumes of data that had more or less similar horizontal structures. These companies realized that the performance and real-time properties were more important than consistency, in which the traditional relational data bases devoted a lot of processing time. 

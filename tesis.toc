@@ -18,40 +18,45 @@
 \contentsline {subsection}{\numberline {3.5.1}Fuzzy sets}{28}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}Fuzzy logic controller}{28}{subsection.3.5.2}
 \contentsline {section}{\numberline {3.6}Learning object}{29}{section.3.6}
-\contentsline {section}{\numberline {3.7}NoSQL}{31}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}Key-Value example}{32}{subsection.3.7.1}
-\contentsline {subsection}{\numberline {3.7.2}Advantages of NoSQL systems}{33}{subsection.3.7.2}
-\contentsline {subsection}{\numberline {3.7.3}Main differences with SQL databases}{34}{subsection.3.7.3}
-\contentsline {subsection}{\numberline {3.7.4}Types of NoSQL databases}{35}{subsection.3.7.4}
-\contentsline {subsection}{\numberline {3.7.5}Examples of NoSQL databases}{36}{subsection.3.7.5}
-\contentsline {chapter}{\numberline {4}The Proposed Method}{40}{chapter.4}
-\contentsline {section}{\numberline {4.1}Environment}{41}{section.4.1}
-\contentsline {section}{\numberline {4.2}ELO}{44}{section.4.2}
-\contentsline {section}{\numberline {4.3}Fuzzy simple sequencing}{46}{section.4.3}
-\contentsline {section}{\numberline {4.4}Devices}{48}{section.4.4}
-\contentsline {section}{\numberline {4.5}Master / User}{48}{section.4.5}
-\contentsline {section}{\numberline {4.6}Engagement}{48}{section.4.6}
-\contentsline {chapter}{\numberline {5}Case of Study}{50}{chapter.5}
-\contentsline {section}{\numberline {5.1}Experiments}{50}{section.5.1}
-\contentsline {section}{\numberline {5.2}Adaptive Learning Environment topic 1}{52}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Devices}{52}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Topic/Content}{53}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Users}{54}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Survey}{55}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Adaptive Learning Environment topic 2}{56}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Devices}{57}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Topic/Content}{58}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Users}{60}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Survey}{62}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Adaptive Learning Environment topic 3}{62}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Devices}{64}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Topic/Content}{64}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Users}{66}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Survey}{66}{subsection.5.4.4}
-\contentsline {chapter}{\numberline {6}Environment Evaluation}{68}{chapter.6}
-\contentsline {section}{\numberline {6.1}Results experiment 1}{69}{section.6.1}
-\contentsline {section}{\numberline {6.2}Results experiment 2}{70}{section.6.2}
-\contentsline {section}{\numberline {6.3}Results experiment 3}{74}{section.6.3}
-\contentsline {chapter}{\numberline {7}Conclusions and future work}{81}{chapter.7}
-\contentsline {chapter}{\numberline {A}Technical support of installation}{83}{appendix.A}
-\contentsline {chapter}{Bibliography}{85}{section*.46}
+\contentsline {section}{\numberline {3.7}Linda Spaces}{31}{section.3.7}
+\contentsline {section}{\numberline {3.8}NoSQL}{33}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Key-Value example}{34}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}Advantages of NoSQL systems}{35}{subsection.3.8.2}
+\contentsline {subsection}{\numberline {3.8.3}Main differences with SQL databases}{36}{subsection.3.8.3}
+\contentsline {subsection}{\numberline {3.8.4}Types of NoSQL databases}{37}{subsection.3.8.4}
+\contentsline {subsection}{\numberline {3.8.5}Examples of NoSQL databases}{38}{subsection.3.8.5}
+\contentsline {chapter}{\numberline {4}The Proposed Method}{42}{chapter.4}
+\contentsline {section}{\numberline {4.1}Environment}{43}{section.4.1}
+\contentsline {section}{\numberline {4.2}Proposed learning object}{46}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Linda Spaces}{47}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}ELO}{50}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Formal definition.}{50}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Formal definition.}{51}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Fuzzy simple sequencing}{51}{section.4.3}
+\contentsline {section}{\numberline {4.4}Devices}{53}{section.4.4}
+\contentsline {section}{\numberline {4.5}Master / User}{53}{section.4.5}
+\contentsline {section}{\numberline {4.6}Engagement}{53}{section.4.6}
+\contentsline {chapter}{\numberline {5}Case of Study}{55}{chapter.5}
+\contentsline {section}{\numberline {5.1}Experiments}{55}{section.5.1}
+\contentsline {section}{\numberline {5.2}Adaptive Learning Environment topic 1}{57}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Devices}{57}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Topic/Content}{58}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Users}{59}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Survey}{60}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Adaptive Learning Environment topic 2}{61}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Devices}{62}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Topic/Content}{63}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Users}{65}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Survey}{67}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Adaptive Learning Environment topic 3}{67}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Devices}{69}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Topic/Content}{69}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Users}{71}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Survey}{71}{subsection.5.4.4}
+\contentsline {chapter}{\numberline {6}Environment Evaluation}{73}{chapter.6}
+\contentsline {section}{\numberline {6.1}Results experiment 1}{74}{section.6.1}
+\contentsline {section}{\numberline {6.2}Results experiment 2}{75}{section.6.2}
+\contentsline {section}{\numberline {6.3}Results experiment 3}{79}{section.6.3}
+\contentsline {chapter}{\numberline {7}Conclusions and future work}{86}{chapter.7}
+\contentsline {chapter}{\numberline {A}Technical support of installation}{88}{appendix.A}
+\contentsline {chapter}{Bibliography}{90}{section*.48}

@@ -1,5 +1,7 @@
 \chapter{The Proposed Method} \label{proposmeth} 
-In this chapter, an architecture for developing interactive learning environments is proposed. The architecture allows the use of techniques of adaptive hypermedia systems and use in interactive environments. This architecture has as resources environmental learning objects, which are presented to users through the various devices that can be part of this environment and are organized by a sequence based on Simple Sequencing. Also a new method to automate the measurement of the level of attention of the user without using invasive methods. In Figure \ref{arquitectura} we can observe the components of this architecture. As this environment has multiple configurations of use, sometimes it can help a fuzzy inference system to adapt the information presented by the environment to users. The components of the architecture are described in detail.
+The proposed method is based in a previous architecture presented in [46] used in an e-learning platform (Protoboard) where the context involves characteristics referring
+the student environment as well as their performance in previous learning activities.
+In this chapter, an architecture for developing interactive learning environments is proposed. The architecture allows the use of techniques of adaptive hypermedia systems and use in interactive environments. This architecture has as resources environmental learning objects, which are presented to users through the various devices that can be part of this environment and are organized by a sequence based on Simple Sequencing. Also a new method to automate the measurement of the level of attention of the user without using invasive methods. In Figure \ref{arquitectura} we can observe the components of this architecture. As this environment has multiple configurations of use, sometimes it can help a fuzzy inference system to adapt the information presented by the environment to users. The components of the architecture are described in detail in this chapter.
 
 \begin{figure}[ht!]  
 \centering  
@@ -38,18 +40,58 @@ We propose to generate an environment that thanks to a web service is capable of
 The proposed learning environment has several uses, the first of them and obviously as a learning environment, as a museum exhibitor, training, entertainment, advertising, games. And this is possible thanks to the web service that allows to use different learning objects and of different types in any device that is able to run a web browser and that it is available.
 Then we will be concerned with the learning part, the modification of the environment and the user resulting in a learning environment that can be manipulated or adjusted to the needs of the users. In order to carry out this, we propose a new learning object methodology, which we will call "Environmental Learning Object", this object will be used in a learning environment where users can interact with it. We will speak more specifically about this proposal later.
 
-\section{ELO}
-A standard learning object is defined in \cite{wayneh}. The teacher prepares teaching materials using content from various sources; select different pieces of information that subsequently assembled to form the course or class to teach. Learning objects are based on this methodology, seeing the didactic content as a component that is designed to combine with others and to be used in different contexts; learning objects usually have the following characteristics: 
+\section{Proposed learning object}
+Ya hablamos en capitulos anteriores sobre los objetos de aprendizaje y sobre su importancia para este proyecto en esta seccion hablaremos sobre el nuevo tipo de objeto de aprendizaje que estamos proponiendo, la definicion de 
+standard learning object is defined in \cite{wayneh}. 
+en los ambientes de aprendizaje The teacher prepares teaching materials using content from various sources; select different pieces of information that subsequently assembled to form the course or class to teach. Learning objects are based on this methodology, seeing the didactic content as a component that is designed to combine with others and to be used in different contexts; learning objects usually have the following characteristics: 
 •	They are self-contained. Each learning object can be used independently. 
 •	Are reusable. A learning object can be used in different contexts, for multiple purposes. 
 •	Can be added. Learning objects can be grouped into collections, after being presented with a traditional course structure. 
 •	Are labeled with metadata. Each learning object has associated certain in-formation that describes it. This facilitates reuse by automatic means.
+Entonces nuestra tarea es desarrollar un metodo que le permita al maestro seleccionar piezas de informacion que sean contextualmente relevantes para el usuario.
+\subsection{Linda Spaces}
+Para distribuir los onjetos de aprendizaje sobre los dispositivos disponibles tomamos como referencia el lenguaje de coordinacion Linda Spaces.
+Linda [David Gelernter, 1985 Generative communication in Linda ACM Transactions on Programming Languages and Systems
+Volume 7 , Issue 1 (January 1985), pp. 80-112] es un modelo que puede ser implementado para cualquier lenguaje que provea herramientas para crear y coordinar multiples procesos, algunas ejemplos de implementación son CppLINDA para C++, Simple C-Linda para C o PYLinda para Python. El concepto principal de LINDA es el de “Espacio de Tuplas” a través del cual los procesos se comunican. Este espacio de tuplas es una abstracción de un espacio de memoria compartida el cual se usa de manera asociativa.
+El espacio de tuplas es donde se almacena la información accesible para todos los procesos. Las tuplas son colecciones de campos de algún tipo soportado por el lenguaje para el que se esta implementando. Estos campos pueden ser de dos tipos, valores de un tipo soportado o variables para recibir la información obtenida del espacio de tuplas, a las variables se les añade ? delante.
+Habitualmente se definen tres operaciones sobre un espacio de
+tuplas:
+\begin{itemize}	
+\item write(t) (out)
+\begin{itemize}	
+\item t es una tupla; el proceso deposita la tupla y sigue (no bloqueante)
+\end{itemize}
+\item take(p) (in)
+\begin{itemize}
+\item p es un patrón; el proceso se bloquea hasta que el espacio de tuplas le
+asigna una que corresponda al patrón
+\item la tupla es quitada del espacio de tuplas
+\end{itemize}
+\item read(p) (rd)
+\begin{itemize}
+\item versión del “take” en que la tupla que le es asignada no se elimina del
+espacio de tuplas
+\item puede haber varios read simultáneos
+\end{itemize}
+\end{itemize}
+\begin{figure}[ht!]  
+\centering  
+\includegraphics[scale=1]{linda}
+\quad  
+\caption{E-Learning}  
+\label{keyvalue}  
+\end{figure}
 
-\subection{Proposed learning object}
-We propose a learning environment that uses a new type of learning object which we call "Environmental Learning Object" (ELO) these objects include additional metadata that can be used to identify and manage content for their use in ubiquitous devices: we considered input and output devices e.g. interactive tables, wall projections, monitors, tablets, cameras, microphones and speakers.
-By tagging through the metadata we can make a selection of learning objects to create and manage different contexts when applied to a learning environment as we can note in Figure.
+En el modelo básico las tuplas son bastante simples Aqui se muestra una definicion general 
+
+
+\subsection{ELO}
+We propose a learning environment that uses a new type of learning object which we call "Environmental Learning Object" (ELO) these objects include additional metadata that can be used to identify and manage content for their use in ubiquitous devices: we considered input and output devices e.g. interactive table's, wall projections, monitors, tablets, cameras, microphones and speakers.
+By tagging through the metadata we can make a selection of learning objects to create and manage different contexts when applied to a learning environment.
+
 Where each learning object is selected and routed to a device that operates its utility like a sound file that can’t be used on a monitor maybe on a Smartphone or a tablet pc, these are the types of problems that can occur when using these learning objects. Also this ELO will give contextual information for feedback. 
-\subection{Formal definition.}
+
+\subsection{Formal definition.}
 Objeto de Aprendizaje Ambiental (OAA) es un objeto de aprendizaje que permite la distribución de contenido a diversos dispositivos con la condición de que deben estar disponibles y ser compatibles en un ambiente de aprendizaje interactivo.
 Un objeto de aprendizaje ambiental (OAA) se determina por la tupla <O,D> donde O es un conjunto de objetos de aprendizaje y D es un conjunto de Dispositivos.
 OOA=((O,D),D)
@@ -57,7 +99,7 @@ OOA=((O,D),D)
 Donde un objeto de aprendizaje o ? O objetos de aprendizaje como entidades, digitales o no digitales, que pueden ser utilizadas para promover el aprendizaje, educación o entrenamiento.
 Y un dispositivo d ? D dispositivos con la condición de que deben estar disponibles y ser compatibles en un ambiente de aprendizaje interactivo.
 
-\subection{Formal definition.}
+\subsection{Formal definition.}
 \section{Fuzzy simple sequencing}
 Simple sequencing standard[18] [19], which allows sequencing of this type of learning objects. First an activity tree with n number of activities is determined by the teacher, selecting the learning objects to be used per activity and adding fuzzy pre-condition rules that consider the context and user model to determine the sequence, for example:
 IF Context.Temperature is HIGH and Session.Activity.Place is OUTSIDE
