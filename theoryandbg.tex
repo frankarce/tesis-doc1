@@ -43,10 +43,10 @@ Learning object design raises issues of portability, and of the object's relatio
 Learning objects are the basic elements of current Learning Management Systems (LMS) and are the focus of standardization initiatives whose goal is defining open technical standards and their characteristic metadata [6]. The most important initiatives are the Advanced Distributed Learning Initiative (ADL-SCORM) [7], the Instructional Management System Project (IMS) [8], the Alliance of Remote Instructional Authoring Distribution Networks of Europe (ARIADNE) [9], and the IEEE Learning Technology Standards Committee [10]. The main objective of these open standards is to enable the interoperability of learning objects between different LMSs and Learning Objects Repositories (LORS). Basic metadata schema specifications for learning objects include: Learning Object Metadata (LOM). Based on the Dublin Core metadata [11] this specification defines a set of meta- data elements that can be used to describe learning resources. LOM Includes educational, relation, technical, and classification elements [7]. Content Aggregation Model (CAM). CAM defines a package for the aggregation, distribution, management, and deployment of learning objects. Defines an organization element which contains information about one particular, passive organization of the material, the organization for now is limited to a tree structure [8]. Learner Information (LI). A collection of information about a learner or a producer of learning content, the elements are based upon accessibilities; activities; affiliations; competencies; goals; identifications; interests; qualifications, certifications and licenses; relationship; security keys; and transcripts [8]. Sequence and Navigation (SN). SN defines a method for representing the intended behavior of an authored learning experience such that any Learning Technology system (LTS) can sequence discrete learning activities in a consistent way. Provides a rule based sequencing of behaviors [7]. These standards have been the basis for various research projects in eLearning [11] and also extensions to support adaptability have been proposed [13], [14], [15]. Certain limitations of these specification initiatives have been noticed mainly regarding their weak support for the instructional design of the educational resources and pedagogy [16]. 
 
 \section{Linda Spaces}
-
+%https://en.wikipedia.org/wiki/Linda_(coordination_language)
 Linda [David Gelernter, 1985 Generative communication in Linda ACM Transactions on Programming Languages and Systems
-Volume 7 , Issue 1 (January 1985), pp. 80-112] es un modelo que puede ser implementado para cualquier lenguaje que provea herramientas para crear y coordinar multiples procesos, algunas ejemplos de implementaci√≥n son CppLINDA para C++, Simple C-Linda para C o PYLinda para Python. El concepto principal de LINDA es el de ‚ÄúEspacio de Tuplas‚Äù a trav√©s del cual los procesos se comunican. Este espacio de tuplas es una abstracci√≥n de un espacio de memoria compartida el cual se usa de manera asociativa.
-El espacio de tuplas es donde se almacena la informaci√≥n accesible para todos los procesos. Las tuplas son colecciones de campos de alg√∫n tipo soportado por el lenguaje para el que se esta implementando. Estos campos pueden ser de dos tipos, valores de un tipo soportado o variables para recibir la informaci√≥n obtenida del espacio de tuplas, a las variables se les a√±ade ? delante.
+Volume 7 , Issue 1 (January 1985), pp. 80-112] es un modelo que puede ser implementado para cualquier lenguaje que provea herramientas para crear y coordinar multiples procesos, algunas ejemplos de implementacion son CppLINDA para C++, Simple C-Linda para C o PYLinda para Python. El concepto principal de LINDA es el de Espacio de Tuplas a traves del cual los procesos se comunican. Este espacio de tuplas es una abstraccion de un espacio de memoria compartida el cual se usa de manera asociativa.
+El espacio de tuplas es donde se almacena la informacion accesible para todos los procesos. Las tuplas son colecciones de campos de algun tipo soportado por el lenguaje para el que se esta implementando. Estos campos pueden ser de dos tipos, valores de un tipo soportado o variables para recibir la informacio≥n obtenida del espacio de tuplas, a las variables se les aÒade ? por delante.
 Habitualmente se definen tres operaciones sobre un espacio de
 tuplas:
 \begin{itemize}	
@@ -56,14 +56,14 @@ tuplas:
 \end{itemize}
 \item take(p) (in)
 \begin{itemize}
-\item p es un patr√≥n; el proceso se bloquea hasta que el espacio de tuplas le
-asigna una que corresponda al patr√≥n
+\item p es un patron; el proceso se bloquea hasta que el espacio de tuplas le
+asigna una que corresponda al patron
 \item la tupla es quitada del espacio de tuplas
 \end{itemize}
 \item read(p) (rd)
 \begin{itemize}
-\item versi√≥n del ‚Äútake‚Äù en que la tupla que le es asignada no se elimina del
-espacio de tuplas
+\item Version del "take" en que la tupla que le es asignada no se elimina del
+espacio de tuplas.
 \item puede haber varios read simult√°neos
 \end{itemize}
 \end{itemize}
@@ -75,22 +75,40 @@ espacio de tuplas
 \label{keyvalue}  
 \end{figure}
 
-En el modelo b√°sico las tuplas son bastante simples. Aqui se muestra una definicion general 
+En el modelo basico las tuplas son bastante simples. Aqui se muestra una definicion general 
 Let A be a set of typed elements, called atoms, for which a mapping.
  
 \begin{equation}
 EQ_{A} : A \times A \to \{ 0, 1 \} 
 \end{equation}
 
-%is assumed to be defined. The set of tuples TA is defined as follows: 
+is assumed to be defined. The set of tuples TA is defined as follows: 
 \begin{enumerate}	
-\item for any a \( \in \) A, [a] belongs to \( \tau_{A} \)
-%\item for any \[a\] \boldsymbol{\tau}_{A}, \[\[la\]\] belongs to \boldsymbol{\tau}_{A} 
-%\item if [el] and [e2] belong to \boldsymbol{\tau}_{A}, then [e1 e2] also belongs to \boldsymbol{\tau}_{A}  
+\item for any \textsl{a} \( \in \) \textsl{A}, [\textsl{a}] belongs to \( \tau_{A} \)
+\item for any [\textsl{a}] \( \tau_{A} \), [[a]] belongs to \( \tau_{A} \)
+\item if [\textit{e1}] and [\textit{e2}] belong to \( \tau_{A} \), then [\textit{e1 e2}] also belongs to  \( \tau_{A} \)  
 \end{enumerate}
 
+Vamos a suponer definido el siguiente entorno de datos:
+\begin{shaded}
+Tipos \\
+tupla= .....  --tuplas de lo que sea \\
+modosMatching =(strong,weak,attribute,generalAttribute)
+\end{shaded}
+Los tipos tupla y patron son TAD con los operadores
+\begin{shaded}
 
-
+\begin{itemize}
+	\item :=,=,/= 
+\item [] es la tupla vacÌa 
+\itemt 1+t2 es la concatenaciÛn 
+\item si t1 es prefijo de t2, t2-t1 es la tupla resta 
+\item long(t) es el n˙mero de componentes 
+\item t(i), con i en el rango 1..long(t), da la componente 
+\item en un patrÛn, NULL representa un comodÌn 
+\item ....
+\end{itemize}
+\end{shaded}
 \section{NoSQL}
 
 In computing, NoSQL (sometimes called "not only SQL") is a broad class of systems management databases that differ from the classical model of relational database management system (RDBMS) in important aspects, the most prominent is that they are not using SQL as the primary query language. The stored data do not require fixed structures such as tables, typically do not support JOIN operations, not fully guarantee ACID (atomicity, consistency, isolation and durability), and usually scale well horizontally. The NoSQL systems are sometimes called "not only SQL" to underline the fact that they can also support query languages like SQL. The NoSQL databases Systems grew with major Internet companies like Google, Amazon, Twitter and Facebook. These had to face challenges with data processing than traditional RDBMS not solved. With the growth of the web in real time there was a need to provide processed information from large volumes of data that had more or less similar horizontal structures. These companies realized that the performance and real-time properties were more important than consistency, in which the traditional relational data bases devoted a lot of processing time. 
@@ -185,10 +203,10 @@ CouchDB: It is a system created by Apache and written in Erlang language that wo
 \label{bdg}  
 \end{figure}
 \section{Kinect 2}
-https://hipertextual.com/2013/10/kinect-xbox-one-funcionamiento
+%https://hipertextual.com/2013/10/kinect-xbox-one-funcionamiento
+%https://thenextweb.com/microsoft/2014/07/15/microsoft-starts-shipping-kinect-windows-v2-sensor-releases-free-sdk-2-0-public-preview/#.tnw_sqacrTXd
 link
-Investigadores de Microsoft Research nos muestran cÛmo la nueva versiÛn de Kinect, el sensor de movimiento de Microsoft, supera en todo a su antecesor, y lo convierte en un dispositivo con muchÌsimas oportunidades para la investigaciÛn en diferentes ramas.
-øCÛmo funciona Kinect de Xbox One?
+
 En el aÒo 2010 Microsoft presentÛ un nuevo dispositivo que servirÌa como complemento o accesorio de su consola de videojuegos de sobremesa, Xbox 360. Este dispositivo que lleva el nombre de Kinect cambiÛ muchas cosas, y no solamente en el mundo de los videojuegos. Para los gamers, por primera vez podrÌan controlar sus juegos en casa sencillamente con su cuerpo, o incluso con comandos de voz; pero la ciencia aprovechÛ este pequeÒo aparato para mucho m·s.
 
 Sin embargo, la segunda versiÛn de Kinect promete dejar en el pasado a su antecesor, super·ndolo en todo aspecto, e incorporando nuevas tecnologÌas que sÌ, Microsoft en teorÌa sigue dirigiendo a los videojuegos, pero tambiÈn puede ser aprovechada en muchos otros aspectos, desde la investigaciÛn cientÌfica y mÈdica, hasta la espacial, o en la ediciÛn y creaciÛn de animaciones. Las posibilidades son muy amplias.
