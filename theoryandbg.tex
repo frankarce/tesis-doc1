@@ -45,8 +45,11 @@ Learning objects are the basic elements of current Learning Management Systems (
 \section{Linda Spaces}
 
 Linda [David Gelernter, 1985 Generative communication in Linda ACM Transactions on Programming Languages and Systems
-Volume 7 , Issue 1 (January 1985), pp. 80-112] es un modelo que puede ser implementado para cualquier lenguaje que provea herramientas para crear y coordinar multiples procesos, algunas ejemplos de implementaci√≥n son CppLINDA para C++, Simple C-Linda para C o PYLinda para Python. El concepto principal de LINDA es el de ‚ÄúEspacio de Tuplas‚Äù a trav√©s del cual los procesos se comunican. Este espacio de tuplas es una abstracci√≥n de un espacio de memoria compartida el cual se usa de manera asociativa.
-El espacio de tuplas es donde se almacena la informaci√≥n accesible para todos los procesos. Las tuplas son colecciones de campos de alg√∫n tipo soportado por el lenguaje para el que se esta implementando. Estos campos pueden ser de dos tipos, valores de un tipo soportado o variables para recibir la informaci√≥n obtenida del espacio de tuplas, a las variables se les a√±ade ? delante.
+Volume 7 , Issue 1 (January 1985), pp. 80-112] es un modelo que puede ser implementado para cualquier lenguaje que provea herramientas para crear y coordinar multiples procesos.El concepto principal de LINDA es el de ‚ÄúEspacio de Tuplas‚Äù a trav√©s del cual los procesos se comunican. Este espacio de tuplas es una abstracci√≥n de un espacio de memoria compartida el cual se usa de manera asociativa.
+
+Compared to other parallel-processing models, Linda is more orthogonal in treating process coordination as a separate activity from computation, and it is more general in being able to subsume various levels of concurrency?uniprocessor, multi-threaded multiprocessor, or networked?under a single model. Its orthogonality allows processes computing in different languages and platforms to interoperate using the same primitives. Its generality allows a multi-threaded Linda system to be distributed across multiple computers without change.
+
+El espacio de tuplas es donde se almacena la informacion accesible para todos los procesos. Las tuplas son colecciones de campos de alg√∫n tipo soportado por el lenguaje para el que se esta implementando. Estos campos pueden ser de dos tipos, valores de un tipo soportado o variables para recibir la informaci√≥n obtenida del espacio de tuplas, a las variables se les aÒade ? delante.
 Habitualmente se definen tres operaciones sobre un espacio de
 tuplas:
 \begin{itemize}	
@@ -75,7 +78,7 @@ espacio de tuplas
 \label{keyvalue}  
 \end{figure}
 
-En el modelo b√°sico las tuplas son bastante simples. Aqui se muestra una definicion general 
+En el modelo basico las tuplas son bastante simples. Aqui se muestra una definicion general 
 Let A be a set of typed elements, called atoms, for which a mapping.
  
 \begin{equation}
@@ -89,6 +92,26 @@ EQ_{A} : A \times A \to \{ 0, 1 \}
 %\item if [el] and [e2] belong to \boldsymbol{\tau}_{A}, then [e1 e2] also belongs to \boldsymbol{\tau}_{A}  
 \end{enumerate}
 
+Researchers have proposed more primitives to support different types of communication and co-ordination between (open distributed) computer systems, and to solve particular problems arising from various uses of the model.[citation needed] Researchers have also experimented with various means of implementing the virtual shared memory for this model.[citation needed] Many of these researchers proposed larger modifications to the original Linda model, developing a family of systems known as Linda-like systems and implemented as orthogonal technology (unlike original version). An example of this is the language Ease designed by Steven Ericsson-Zenith.
+Linda was originally implemented in C and Fortran, but has since been implemented in many programming languages, including:
+\begin{itemize}
+\item C: C-Linda, TCP-Linda, LinuxTuples
+\item C++: CppLinda
+\item Erlang: Erlinda
+\item Java: JavaSpaces, jRESP, TSpaces, LightTS, LIME
+\item Lisp
+\item Lua: LuaTS Lua Lanes
+\item Prolog: SICStus Prolog Linda
+\item Python: PyLinda
+\item Ruby: Rinda
+\end{itemize}
+Some of the more notable Linda implementations include:
+
+C-Linda or TCP-Linda - the earliest commercial and a widespread implementation of virtual shared memory for supercomputers and clustered systems from Scientific Computing Associates, founded by Martin Schultz.
+JavaSpaces - a Java-based tuplespace implementation that helped popularize distributed computing.
+TSpaces - a Java-based tuplespace platform from IBM.
+
+El enfoque de linda sera util para nuestro Proyecto ya que la arquitectura que muestra encaja perfectamente en la forma en la que distribuimos la reproducciÛn o desplegados de los diversos objetos de aprendizaje que manejamos.
 
 
 \section{NoSQL}
@@ -187,22 +210,13 @@ CouchDB: It is a system created by Apache and written in Erlang language that wo
 \section{Kinect 2}
 https://hipertextual.com/2013/10/kinect-xbox-one-funcionamiento
 link
-Investigadores de Microsoft Research nos muestran cÛmo la nueva versiÛn de Kinect, el sensor de movimiento de Microsoft, supera en todo a su antecesor, y lo convierte en un dispositivo con muchÌsimas oportunidades para la investigaciÛn en diferentes ramas.
+\item 
 øCÛmo funciona Kinect de Xbox One?
 En el aÒo 2010 Microsoft presentÛ un nuevo dispositivo que servirÌa como complemento o accesorio de su consola de videojuegos de sobremesa, Xbox 360. Este dispositivo que lleva el nombre de Kinect cambiÛ muchas cosas, y no solamente en el mundo de los videojuegos. Para los gamers, por primera vez podrÌan controlar sus juegos en casa sencillamente con su cuerpo, o incluso con comandos de voz; pero la ciencia aprovechÛ este pequeÒo aparato para mucho m·s.
 
 Sin embargo, la segunda versiÛn de Kinect promete dejar en el pasado a su antecesor, super·ndolo en todo aspecto, e incorporando nuevas tecnologÌas que sÌ, Microsoft en teorÌa sigue dirigiendo a los videojuegos, pero tambiÈn puede ser aprovechada en muchos otros aspectos, desde la investigaciÛn cientÌfica y mÈdica, hasta la espacial, o en la ediciÛn y creaciÛn de animaciones. Las posibilidades son muy amplias.
 
-Microsoft Research, los laboratorios m·s curiosos del gigante de Redmond, por asÌ decirlo, han querido explicar a travÈs de dos vÌdeos cÛmo funciona el nuevo Kinect de Xbox One y quÈ es lo que hace especial sus nuevas caracterÌsticas tÈcnicas.
-
-
-
-En el caso de su sensor o su ojo, como lo llaman en Microsoft Research, cuenta con nuevas capacidades que incluyen no solo una c·mara de mayor nitidez, ideal para ser utilizada en vÌdeoconferencias a travÈs de Skype, por ejemplo; sino tambiÈn cuenta con nuevas tecnologÌas que permite captar al usuario con mayor profundidad, a diferencia de la versiÛn anterior, y en tres dimensiones. La sensibilidad del captador detalla a tal punto de percatarse si la persona abre su boca, o sonrÌe.
-
-Adem·s, cuenta con tecnologÌa infrarroja para poder ver incluso con en completa oscuridad, sin ser afectado por luces de l·mparas o mÛviles. Esto es peculiarmente ˙til para los usuarios de Xbox One que juegan o ven pelÌculas con la luz apagada, ya que podr·n seguir dando Ûrdenes a la consola usando gestos con las manos, sin ning˙n problema.
-
-
-
+\item 
 Pero la gran maravilla del nuevo Kinect se encuentra en la tecnologÌa que han incorporado en su "cerebro". Su capacidad de captaciÛn va mucho m·s all· que simplemente ver y analizar nuestros gestos, y esto ofrece oportunidades increÌbles m·s all· de simplemente jugar.
 
 Kinect de Xbox One puede medir el ritmo cardÌacoEl nuevo Kinect cuenta con sensores que permiten detectar no solo nuestros movimientos, sino tambiÈn la posiciÛn de nuestros cuerpos, en quÈ sentido giramos nuestras manos, o si movemos nuestros pulgares. Adem·s, puede captar y analizar la fuerza que ejercen nuestros m˙sculos, y ese es quiz·s el mayor avance en este sentido que ofrece Microsoft con su nuevo dispositivo. Finalmente el nuevo Kinect puede medir el ritmo cardÌaco de su usuario simplemente usando su c·mara.
